@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aurora-cream: #f5f0eb;
+  --color-aurora-sand: #e8ddd3;
+  --color-aurora-brown: #6b5344;
+  --color-aurora-dark: #3d3229;
+  --color-aurora-charcoal: #2a231c;
+  --color-aurora-gold: #c4a882;
+  --color-aurora-white: #faf8f6;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Montserrat", system-ui, sans-serif;
+  --font-script: "Dancing Script", cursive;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-aurora-cream text-aurora-dark font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-sans tracking-wide;
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply font-script text-aurora-brown text-xl md:text-2xl;
+  }
+
+  .section-heading {
+    @apply text-2xl md:text-4xl lg:text-5xl font-semibold uppercase tracking-wider text-aurora-dark;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-aurora-dark text-white px-8 py-3 text-sm font-semibold uppercase tracking-widest transition-colors hover:bg-aurora-brown;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center border border-aurora-dark text-aurora-dark px-8 py-3 text-sm font-semibold uppercase tracking-widest transition-colors hover:bg-aurora-dark hover:text-white;
+  }
+}

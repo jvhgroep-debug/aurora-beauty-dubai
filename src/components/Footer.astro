@@ -1,0 +1,86 @@
+---
+import site from '/src/data/site.json';
+
+interface Props {
+  locatieNaam?: string;
+  isHomeBase?: boolean;
+}
+
+const { locatieNaam, isHomeBase = false } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer id="contact" class="bg-aurora-charcoal text-white">
+  <!-- Booking section -->
+  <section id="book" class="py-16 md:py-20 border-b border-white/10">
+    <div class="mx-auto max-w-7xl px-4 md:px-8">
+      <div class="grid gap-12 lg:grid-cols-2">
+        <div>
+          <p class="font-script text-aurora-gold text-xl mb-2">Reserve Your Glow</p>
+          <h2 class="text-2xl md:text-3xl font-semibold uppercase tracking-wider mb-6">Book Your Visit</h2>
+          <address class="not-italic text-white/70 space-y-1 text-sm">
+            <p>{site.address.street}</p>
+            <p>{site.address.city}, {site.address.country}</p>
+            {isHomeBase && <p class="text-aurora-gold pt-2">Our home salon in Azizi Riviera, Meydan</p>}
+            {!isHomeBase && locatieNaam && <p class="text-aurora-gold pt-2">Serving clients from {locatieNaam}</p>}
+          </address>
+          <div class="mt-6 space-y-2">
+            <a href={`tel:${site.phone}`} class="block text-sm hover:text-aurora-gold transition-colors">{site.phone}</a>
+            <a href={`mailto:${site.email}`} class="block text-sm hover:text-aurora-gold transition-colors">{site.email}</a>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center">
+          <p class="text-white/70 text-sm leading-relaxed mb-6">
+            Ready to treat yourself? Book your appointment online through our secure booking system — choose your treatment, pick a time, and confirm in minutes.
+          </p>
+          <a
+            href={site.bookingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary w-full sm:w-auto text-center"
+          >
+            Book Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hours & newsletter -->
+  <div class="py-12 border-b border-white/10">
+    <div class="mx-auto max-w-7xl px-4 md:px-8 grid gap-10 md:grid-cols-3">
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-widest mb-4">Opening Hours</h3>
+        <p class="text-sm text-white/70">{site.hours.weekdays}</p>
+        <p class="text-sm text-white/70 mt-1">{site.hours.sunday}</p>
+      </div>
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-widest mb-4">Book Your Visit</h3>
+        <p class="text-sm text-white/70">{site.address.street}</p>
+        <p class="text-sm text-white/70">{site.address.country}</p>
+      </div>
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-widest mb-4">Newsletter</h3>
+        <form class="flex gap-2" action="#" method="post">
+          <input type="email" placeholder="Enter your email" required class="flex-1 bg-white/5 border border-white/20 px-4 py-2 text-sm placeholder:text-white/40 focus:outline-none focus:border-aurora-gold" />
+          <button type="submit" class="btn-primary text-xs px-4 py-2">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="py-6">
+    <div class="mx-auto max-w-7xl px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-xs text-white/50">&copy; {year} {site.name}. All rights reserved.</p>
+      <div class="flex gap-4">
+        {Object.entries(site.social).map(([platform, url]) => (
+          <a href={url} target="_blank" rel="noopener noreferrer" class="text-xs uppercase tracking-wider text-white/50 hover:text-aurora-gold transition-colors capitalize">
+            {platform}
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,87 @@
+---
+import type { Service } from '../types';
+import site from '/src/data/site.json';
+
+interface Props {
+  services: Service[];
+  sectionTitle: string;
+  intro: string;
+}
+
+const { services, sectionTitle, intro } = Astro.props;
+---
+
+<section id="services" class="py-16 md:py-24 bg-aurora-white">
+  <div class="mx-auto max-w-7xl px-4 md:px-8">
+    <div class="max-w-3xl mb-12">
+      <p class="section-label mb-2">Welcome to Aurora Beauty Studio</p>
+      <h2 class="section-heading mb-6">{sectionTitle}</h2>
+      <p class="text-aurora-brown/90 leading-relaxed">{intro}</p>
+    </div>
+
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {services.map((service) => (
+        <article class="group relative flex flex-col bg-aurora-cream border border-aurora-sand/60 overflow-hidden transition-shadow hover:shadow-lg">
+          <div class="aspect-[4/3] bg-aurora-sand/50 relative overflow-hidden">
+            <div class="absolute top-4 left-4 z-10 bg-aurora-dark text-white text-xs font-semibold px-3 py-1">
+              {service.currency} {service.price}
+            </div>
+            <img
+              src={service.image}
+              alt={service.imageAlt}
+              width={800}
+              height={600}
+              loading="lazy"
+              decoding="async"
+              class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-aurora-dark/30 to-transparent pointer-events-none"></div>
+          </div>
+          <div class="flex flex-1 flex-col p-5">
+            <p class="text-xs uppercase tracking-widest text-aurora-brown mb-1">{service.tag}</p>
+            <h3 class="text-lg font-semibold uppercase tracking-wide text-aurora-dark mb-2">{service.title}</h3>
+            <p class="text-sm text-aurora-brown/80 leading-relaxed flex-1">{service.description}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <div class="mt-10 text-center">
+      <a
+        href={site.bookingUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-widest text-aurora-dark hover:text-aurora-brown transition-colors"
+      >
+        Book a Treatment
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Features strip -->
+<section class="py-16 md:py-20 bg-aurora-cream">
+  <div class="mx-auto max-w-7xl px-4 md:px-8">
+    <div class="text-center mb-12">
+      <p class="section-label mb-2">Revitalize Your Glow</p>
+      <h2 class="section-heading">Beyond Beauty We Craft Confidence</h2>
+    </div>
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      {[
+        { title: 'Expert Makeovers', desc: 'Our certified artists deliver flawless transformations for every occasion.' },
+        { title: 'Quality Treatment', desc: 'Only premium products and techniques used for exceptional results.' },
+        { title: 'Luxury Experience', desc: 'Indulge in a serene atmosphere designed for your complete relaxation.' },
+        { title: 'Personalized Care', desc: 'Every treatment is customized to your unique beauty needs and preferences.' },
+      ].map((feature) => (
+        <div class="text-center px-4">
+          <div class="mx-auto mb-4 h-12 w-12 rounded-full border-2 border-aurora-brown flex items-center justify-center">
+            <span class="text-aurora-brown text-lg">✦</span>
+          </div>
+          <h3 class="text-sm font-semibold uppercase tracking-wider mb-2">{feature.title}</h3>
+          <p class="text-sm text-aurora-brown/80">{feature.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

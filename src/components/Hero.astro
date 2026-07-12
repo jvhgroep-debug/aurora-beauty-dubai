@@ -1,0 +1,57 @@
+---
+import site from '/src/data/site.json';
+
+interface Props {
+  h1: string;
+  tagline: string;
+  locatieNaam: string;
+  heroImage: string;
+  heroImageAlt: string;
+  isHomeBase?: boolean;
+}
+
+const { h1, tagline, locatieNaam, heroImage, heroImageAlt, isHomeBase = false } = Astro.props;
+---
+
+<section class="relative min-h-[70vh] md:min-h-[85vh] flex items-end overflow-hidden bg-aurora-sand">
+  <div class="absolute inset-0">
+    <img
+      src={heroImage}
+      alt={heroImageAlt}
+      width={1920}
+      height={1080}
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+      class="h-full w-full object-cover object-center"
+    />
+    <div class="absolute inset-0 bg-gradient-to-t from-aurora-dark/70 via-aurora-dark/20 to-transparent"></div>
+  </div>
+
+  <div class="relative z-10 mx-auto w-full max-w-7xl px-4 pb-12 md:px-8 md:pb-20">
+    <p class="section-label text-aurora-gold mb-3">{tagline}</p>
+    <h1 class="max-w-4xl text-3xl md:text-5xl lg:text-6xl font-bold uppercase tracking-wider text-white leading-tight">
+      {h1}
+    </h1>
+    <p class="mt-4 text-sm md:text-base text-white/80 tracking-wide max-w-2xl">
+      {isHomeBase
+        ? 'Azizi Riviera 40, Shop 10 — your luxury beauty destination in Meydan, Dubai.'
+        : `Premium beauty services for ${locatieNaam} — visit Aurora at Azizi Riviera, Meydan.`}
+    </p>
+    <div class="mt-8 flex flex-wrap gap-4">
+      <a
+        href={site.bookingUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-primary"
+      >
+        Book Appointment
+      </a>
+      {!isHomeBase && (
+        <a href={`/${site.homeBaseSlug}/`} class="btn-outline border-white text-white hover:bg-white hover:text-aurora-dark">
+          Visit Our Salon
+        </a>
+      )}
+    </div>
+  </div>
+</section>

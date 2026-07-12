@@ -1,0 +1,90 @@
+[
+  {
+    "id": "vip-facial",
+    "price": 450,
+    "currency": "AED",
+    "tag": "Glow & Radiance",
+    "title": "VIP Facial",
+    "description": "Complete luxury facial including deep cleansing, exfoliation, extraction, mask and relaxing facial massage for glowing skin.",
+    "image": "/images/services/vip-facial.jpg",
+    "imageAlt": "VIP Facial — Aurora Beauty Lounge",
+    "imageLocal": "/images/services/vip-facial.jpg"
+  },
+  {
+    "id": "lash-lift",
+    "price": 185,
+    "currency": "AED",
+    "tag": "Effortless Beauty",
+    "title": "Extension - Full Set Classic",
+    "description": "Lift and curl your natural lashes with our keratin lash lift, enhanced with a darkening tint. Results last 6-8 weeks with zero maintenance.",
+    "image": "/images/services/lash-lift.jpeg",
+    "imageAlt": "Extension - Full Set Classic — Aurora Beauty Lounge",
+    "imageLocal": "/images/services/lash-lift.jpeg"
+  },
+  {
+    "id": "volume-lash",
+    "price": 220,
+    "currency": "AED",
+    "tag": "Dramatic Glamour",
+    "title": "Volume Lash Infill Extensions",
+    "description": "Create stunning, full lashes with our volume technique. Multiple lightweight extensions applied to each natural lash for maximum impact.",
+    "image": "/images/services/volume-lash.webp",
+    "imageAlt": "Volume Lash Infill Extensions — Aurora Beauty Lounge",
+    "imageLocal": "/images/services/volume-lash.webp"
+  },
+  {
+    "id": "mega-volume",
+    "price": 285,
+    "currency": "AED",
+    "tag": "Ultimate Glam",
+    "title": "Mega Volume Extension",
+    "description": "Indulge in the ultimate lash transformation with Mega Volume Extensions. Ultra-fine lashes create intense volume and a rich, dark lash line.",
+    "image": "/images/services/mega-volume.jpeg",
+    "imageAlt": "Mega Volume Extension — Aurora Beauty Lounge",
+    "imageLocal": "/images/services/mega-volume.jpeg"
+  },
+  {
+    "id": "vip-special",
+    "price": 550,
+    "currency": "AED",
+    "tag": "VIP Special",
+    "title": "VIP Special",
+    "description": "Manicure + Pedicure + Lashes — all services can be done at the same time for the ultimate pampering experience.",
+    "image": "/images/services/vip-special.jpg",
+    "imageAlt": "VIP Special — Manicure, Pedicure & Lashes",
+    "imageLocal": "/images/services/vip-special.jpg"
+  },
+  {
+    "id": "lm-curl",
+    "price": 315,
+    "currency": "AED",
+    "tag": "L/M Curl",
+    "title": "L/M Curl Extensions",
+    "description": "Achieve a beautifully lifted and defined look with L and M Curl Extensions — perfect for enhancing eye shape and correcting lash direction.",
+    "image": "/images/services/lm-curl.webp",
+    "imageAlt": "L/M Curl Extensions — Aurora Beauty Lounge",
+    "imageLocal": "/images/services/lm-curl.webp"
+  },
+  {
+    "id": "kk-style",
+    "price": 330,
+    "currency": "AED",
+    "tag": "Kim Kardashian Style",
+    "title": "Kim Kardashian (K.K) Style",
+    "description": "High-impact, textured lash design featuring dense volume and signature wispy spikes for a dramatic yet refined finish.",
+    "image": "/images/services/kk-style.jpeg",
+    "imageAlt": "Kim Kardashian (K.K) Style Lash Extensions",
+    "imageLocal": "/images/services/kk-style.jpeg"
+  },
+  {
+    "id": "brow-lamination",
+    "price": 200,
+    "currency": "AED",
+    "tag": "Fluffy & Full",
+    "title": "Eyebrow Lamination",
+    "description": "Achieve the coveted brushed-up brow look with our brow lamination treatment. Tames unruly brows and creates fuller-looking arches.",
+    "image": "/images/services/brow-lamination.jpeg",
+    "imageAlt": "Eyebrow Lamination — Aurora Beauty Lounge",
+    "imageLocal": "/images/services/brow-lamination.jpeg"
+  }
+]

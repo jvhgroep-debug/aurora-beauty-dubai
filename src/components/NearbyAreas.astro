@@ -1,0 +1,42 @@
+---
+import type { NearbyLocatie } from '../types';
+
+interface Props {
+  nearby: NearbyLocatie[];
+}
+
+const { nearby } = Astro.props;
+---
+
+<section class="py-16 bg-aurora-white border-t border-aurora-sand/60">
+  <div class="mx-auto max-w-7xl px-4 md:px-8">
+    <h2 class="text-xl md:text-2xl font-semibold uppercase tracking-wider text-aurora-dark mb-2">
+      Nearby Areas
+    </h2>
+    <p class="text-sm text-aurora-brown/80 mb-8 max-w-2xl">
+      Aurora Beauty Lounge at Azizi Riviera also serves clients from surrounding Dubai neighbourhoods.
+    </p>
+    <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {nearby.map((area) => (
+        <li>
+          <a
+            href={`/${area.slug}/`}
+            class="group flex items-center justify-between border border-aurora-sand/80 bg-aurora-cream px-5 py-4 text-sm transition-colors hover:border-aurora-brown hover:bg-white"
+          >
+            <span class="font-medium text-aurora-dark group-hover:text-aurora-brown">
+              Beauty Salon in {area.naam}
+            </span>
+            <span class="text-aurora-brown opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true">→</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-8 text-sm text-aurora-brown/70">
+      Visit our home salon at{' '}
+      <a href="/beautysalon-azizi-riviera/" class="font-semibold text-aurora-dark underline underline-offset-2 hover:text-aurora-brown">
+        Aurora Beauty Lounge, Azizi Riviera
+      </a>
+      {' '}— Azizi Riviera 40, Shop 10, Meydan, Dubai.
+    </p>
+  </div>
+</section>

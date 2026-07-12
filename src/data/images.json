@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "ctaBanner": {
+      "src": "/images/sections/glow.jpg",
+      "alt": "Luxury beauty treatment at Aurora Beauty Lounge"
+    },
+    "ogImage": {
+      "src": "/images/hero/hero-bg.webp",
+      "alt": "Aurora Beauty Lounge — luxury beauty salon in Dubai"
+    }
+  }
+}
