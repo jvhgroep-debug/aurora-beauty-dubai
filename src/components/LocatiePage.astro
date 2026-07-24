@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from './Header.astro';
+import Hero from './Hero.astro';
+import WijkIntro from './WijkIntro.astro';
+import ServiceGrid from './ServiceGrid.astro';
+import Testimonials from './Testimonials.astro';
+import NearbyAreas from './NearbyAreas.astro';
+import Faq from './Faq.astro';
+import Footer from './Footer.astro';
+import locaties from '/src/data/locaties.json';
+import services from '/src/data/services.json';
+import testimonials from '/src/data/testimonials.json';
+import { buildSchema } from '../utils/schema';
+import type { Locatie, NearbyLocatie } from '../types';
+
+interface Props {
+  locatie: Locatie;
+  canonicalUrl: string;
+}
+
+const { locatie, canonicalUrl } = Astro.props;
+
+const locatieMap = new Map(locaties.map((l) => [l.wijkSlug, l]));
+
+const nearby: NearbyLocatie[] = locatie.nearbySlugs
+  .map((slug) => locatieMap.get(slug))
+  .filter((l): l is Locatie => l !== undefined)
+  .map((l) => ({ wijkSlug: l.wijkSlug, naam: l.naam, slug: l.slug }));
+
+const schemaGraph = buildSchema(locatie);
+---
+
+<BaseLayout
+  title={locatie.seoTitle}
+  description={locatie.metaDescription}
+  canonicalUrl={canonicalUrl}
+>
+  <Header locatieNaam={locatie.naam} isHomeBase={locatie.isHomeBase} />
+  <main>
+    <Hero
+      h1={locatie.h1}
+      tagline={locatie.heroTagline}
+      locatieNaam={locatie.naam}
+      heroImage={locatie.heroImage}
+      heroImageAlt={locatie.heroImageAlt}
+      isHomeBase={locatie.isHomeBase}
+    />
+    <WijkIntro
+      naam={locatie.naam}
+      beschrijving={locatie.wijkBeschrijving}
+      isHomeBase={locatie.isHomeBase}
+    />
+    <ServiceGrid
+      services={services}
+      sectionTitle={locatie.sectionTitle}
+      intro={locatie.intro}
+    />
+    <Testimonials
+      testimonials={testimonials}
+      locatieNaam={locatie.naam}
+    />
+    <Faq faqs={locatie.faqs} locatieNaam={locatie.naam} />
+    <NearbyAreas nearby={nearby} />
+  </main>
+  <Footer locatieNaam={locatie.naam} isHomeBase={locatie.isHomeBase} />
+</BaseLayout>
+
+<script type="application/ld+json" set:html={JSON.stringify(schemaGraph.length === 1 ? schemaGraph[0] : schemaGraph)} />

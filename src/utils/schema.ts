@@ -1,7 +1,7 @@
 import type { Locatie } from '../types';
 import site from '/src/data/site.json';
 
-const SITE_URL = 'https://aurorasalon.ae';
+const SITE_URL = site.siteUrl;
 
 export function buildLocalBusinessSchema(locatie: Locatie) {
   return {

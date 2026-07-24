@@ -40,6 +40,7 @@ export interface Testimonial {
 }
 
 export interface SiteConfig {
+  siteUrl: string;
   name: string;
   tagline: string;
   phone: string;

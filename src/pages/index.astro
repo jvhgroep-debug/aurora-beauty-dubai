@@ -1,3 +1,13 @@
 ---
-return Astro.redirect('/beautysalon-azizi-riviera/');
+import LocatiePage from '../components/LocatiePage.astro';
+import locaties from '/src/data/locaties.json';
+import type { Locatie } from '../types';
+
+const locatie = locaties.find((l): l is Locatie => l.isHomeBase);
+
+if (!locatie) {
+  throw new Error('Home base locatie not found in locaties.json');
+}
 ---
+
+<LocatiePage locatie={locatie} canonicalUrl="/" />

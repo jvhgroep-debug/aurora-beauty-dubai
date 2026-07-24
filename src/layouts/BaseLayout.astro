@@ -9,7 +9,7 @@ interface Props {
 }
 
 const { title, description, canonicalUrl } = Astro.props;
-const siteUrl = Astro.site?.origin ?? 'https://aurorasalon.ae';
+const siteUrl = Astro.site?.origin ?? site.siteUrl;
 const url = canonicalUrl
   ? new URL(canonicalUrl, siteUrl).href
   : new URL(Astro.url.pathname, siteUrl).href;
@@ -24,6 +24,7 @@ const socialImageUrl = new URL(site.socialImage, siteUrl).href;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="robots" content="index,follow" />
     <link rel="canonical" href={url} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
