@@ -1,13 +1,73 @@
 ---
-import LocatiePage from '../components/LocatiePage.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import ServiceGrid from '../components/ServiceGrid.astro';
+import Testimonials from '../components/Testimonials.astro';
+import NearbyAreas from '../components/NearbyAreas.astro';
+import Faq from '../components/Faq.astro';
+import Footer from '../components/Footer.astro';
+import homepage from '/src/data/homepage.json';
 import locaties from '/src/data/locaties.json';
-import type { Locatie } from '../types';
+import services from '/src/data/services.json';
+import testimonials from '/src/data/testimonials.json';
+import { buildHomepageSchema, buildHomepageFaqSchema } from '../utils/schema';
+import type { Locatie, NearbyLocatie } from '../types';
 
-const locatie = locaties.find((l): l is Locatie => l.isHomeBase);
+const locatieMap = new Map(locaties.map((l) => [l.wijkSlug, l]));
 
-if (!locatie) {
-  throw new Error('Home base locatie not found in locaties.json');
-}
+const featuredAreas: NearbyLocatie[] = homepage.featuredAreaSlugs
+  .map((slug) => locatieMap.get(slug))
+  .filter((l): l is Locatie => l !== undefined)
+  .map((l) => ({ wijkSlug: l.wijkSlug, naam: l.naam, slug: l.slug }));
+
+const schemaGraph = [
+  ...buildHomepageSchema(),
+  buildHomepageFaqSchema(homepage.faqs),
+];
 ---
 
-<LocatiePage locatie={locatie} canonicalUrl="/" />
+<BaseLayout
+  title={homepage.seoTitle}
+  description={homepage.metaDescription}
+  canonicalUrl="/"
+>
+  <Header isSiteHomepage={true} />
+  <main>
+    <Hero
+      h1={homepage.h1}
+      tagline={homepage.heroTagline}
+      heroImage={homepage.heroImage}
+      heroImageAlt={homepage.heroImageAlt}
+      isSiteHomepage={true}
+      subtitle={homepage.heroSubtitle}
+    />
+    <section id="about" class="py-14 md:py-20 bg-aurora-sand/30">
+      <div class="mx-auto max-w-7xl px-4 md:px-8">
+        <div class="max-w-3xl">
+          <p class="section-label mb-2">{homepage.aboutLabel}</p>
+          <h2 class="text-xl md:text-2xl font-semibold uppercase tracking-wider text-aurora-dark mb-6">
+            {homepage.aboutTitle}
+          </h2>
+          <p class="text-aurora-brown/90 leading-relaxed text-base md:text-lg">
+            {homepage.aboutText}
+          </p>
+        </div>
+      </div>
+    </section>
+    <ServiceGrid
+      services={services}
+      sectionTitle={homepage.sectionTitle}
+      intro={homepage.intro}
+    />
+    <Testimonials
+      testimonials={testimonials}
+      locatieNaam="Dubai"
+    />
+    <Faq faqs={homepage.faqs} locatieNaam="Dubai" faqTitle="Luxury Beauty Salon FAQ — Dubai" />
+    <NearbyAreas nearby={featuredAreas} />
+  </main>
+  <Footer isSiteHomepage={true} />
+</BaseLayout>
+
+<script type="application/ld+json" set:html={JSON.stringify(schemaGraph)} />

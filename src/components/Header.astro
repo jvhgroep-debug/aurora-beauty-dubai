@@ -4,10 +4,11 @@ import site from '/src/data/site.json';
 interface Props {
   locatieNaam?: string;
   isHomeBase?: boolean;
+  isSiteHomepage?: boolean;
 }
 
-const { locatieNaam, isHomeBase = false } = Astro.props;
-const homeUrl = `/${site.homeBaseSlug}/`;
+const { locatieNaam, isHomeBase = false, isSiteHomepage = false } = Astro.props;
+const homeUrl = isSiteHomepage ? '/' : `/${site.homeBaseSlug}/`;
 ---
 
 <header class="sticky top-0 z-40 bg-aurora-cream/95 backdrop-blur-sm border-b border-aurora-sand/50">
@@ -43,7 +44,14 @@ const homeUrl = `/${site.homeBaseSlug}/`;
       </a>
     </div>
   </div>
-  {locatieNaam && !isHomeBase && (
+  {isSiteHomepage && (
+    <div class="bg-aurora-dark py-1.5 text-center">
+      <p class="text-xs tracking-widest uppercase text-white/80">
+        Azizi Riviera 40, Shop 10, Meydan — Luxury Beauty Salon Dubai
+      </p>
+    </div>
+  )}
+  {locatieNaam && !isHomeBase && !isSiteHomepage && (
     <div class="bg-aurora-sand/40 py-1.5 text-center">
       <p class="text-xs tracking-widest uppercase text-aurora-brown">
         Serving {locatieNaam}, Dubai —{' '}
@@ -51,7 +59,7 @@ const homeUrl = `/${site.homeBaseSlug}/`;
       </p>
     </div>
   )}
-  {isHomeBase && (
+  {isHomeBase && !isSiteHomepage && (
     <div class="bg-aurora-dark py-1.5 text-center">
       <p class="text-xs tracking-widest uppercase text-white/80">
         Home Base — Azizi Riviera 40, Shop 10, Meydan

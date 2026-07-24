@@ -4,13 +4,30 @@ import site from '/src/data/site.json';
 interface Props {
   h1: string;
   tagline: string;
-  locatieNaam: string;
+  locatieNaam?: string;
   heroImage: string;
   heroImageAlt: string;
   isHomeBase?: boolean;
+  isSiteHomepage?: boolean;
+  subtitle?: string;
 }
 
-const { h1, tagline, locatieNaam, heroImage, heroImageAlt, isHomeBase = false } = Astro.props;
+const {
+  h1,
+  tagline,
+  locatieNaam = 'Dubai',
+  heroImage,
+  heroImageAlt,
+  isHomeBase = false,
+  isSiteHomepage = false,
+  subtitle,
+} = Astro.props;
+
+const heroSubtitle = subtitle ?? (
+  isHomeBase
+    ? 'Azizi Riviera 40, Shop 10 — your luxury beauty destination in Meydan, Dubai.'
+    : `Premium beauty services for ${locatieNaam} — visit Aurora at Azizi Riviera, Meydan.`
+);
 ---
 
 <section class="relative min-h-[70vh] md:min-h-[85vh] flex items-end overflow-hidden bg-aurora-sand">
@@ -34,9 +51,7 @@ const { h1, tagline, locatieNaam, heroImage, heroImageAlt, isHomeBase = false } 
       {h1}
     </h1>
     <p class="mt-4 text-sm md:text-base text-white/80 tracking-wide max-w-2xl">
-      {isHomeBase
-        ? 'Azizi Riviera 40, Shop 10 — your luxury beauty destination in Meydan, Dubai.'
-        : `Premium beauty services for ${locatieNaam} — visit Aurora at Azizi Riviera, Meydan.`}
+      {heroSubtitle}
     </p>
     <div class="mt-8 flex flex-wrap gap-4">
       <a
@@ -47,7 +62,12 @@ const { h1, tagline, locatieNaam, heroImage, heroImageAlt, isHomeBase = false } 
       >
         Book Appointment
       </a>
-      {!isHomeBase && (
+      {isSiteHomepage && (
+        <a href={`/${site.homeBaseSlug}/`} class="btn-outline border-white text-white hover:bg-white hover:text-aurora-dark">
+          Visit Azizi Riviera Salon
+        </a>
+      )}
+      {!isHomeBase && !isSiteHomepage && (
         <a href={`/${site.homeBaseSlug}/`} class="btn-outline border-white text-white hover:bg-white hover:text-aurora-dark">
           Visit Our Salon
         </a>

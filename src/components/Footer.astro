@@ -4,9 +4,10 @@ import site from '/src/data/site.json';
 interface Props {
   locatieNaam?: string;
   isHomeBase?: boolean;
+  isSiteHomepage?: boolean;
 }
 
-const { locatieNaam, isHomeBase = false } = Astro.props;
+const { locatieNaam, isHomeBase = false, isSiteHomepage = false } = Astro.props;
 const year = new Date().getFullYear();
 ---
 
@@ -21,8 +22,9 @@ const year = new Date().getFullYear();
           <address class="not-italic text-white/70 space-y-1 text-sm">
             <p>{site.address.street}</p>
             <p>{site.address.city}, {site.address.country}</p>
-            {isHomeBase && <p class="text-aurora-gold pt-2">Our home salon in Azizi Riviera, Meydan</p>}
-            {!isHomeBase && locatieNaam && <p class="text-aurora-gold pt-2">Serving clients from {locatieNaam}</p>}
+            {isSiteHomepage && <p class="text-aurora-gold pt-2">Luxury beauty salon in Azizi Riviera, Meydan, Dubai</p>}
+            {isHomeBase && !isSiteHomepage && <p class="text-aurora-gold pt-2">Our home salon in Azizi Riviera, Meydan</p>}
+            {!isHomeBase && !isSiteHomepage && locatieNaam && <p class="text-aurora-gold pt-2">Serving clients from {locatieNaam}</p>}
           </address>
           <div class="mt-6 space-y-2">
             <a href={`tel:${site.phone}`} class="block text-sm hover:text-aurora-gold transition-colors">{site.phone}</a>
