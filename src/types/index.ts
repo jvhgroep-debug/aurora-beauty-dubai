@@ -65,3 +65,35 @@ export interface NearbyLocatie {
   naam: string;
   slug: string;
 }
+
+export interface ServicePageLink {
+  label: string;
+  slug: string;
+}
+
+export interface ServicePage {
+  serviceKey: string;
+  serviceName: string;
+  serviceType: string;
+  serviceTagline: string;
+  locationPageSlug: string;
+  locationNaam: string;
+  locationShortName: string;
+  wijkSlug: string;
+  slug: string;
+  h1: string;
+  seoTitle: string;
+  metaDescription: string;
+  heroTagline: string;
+  sectionTitle: string;
+  localContent: string;
+  intro: string;
+  faqs: FaqItem[];
+  heroImage: string;
+  heroImageAlt: string;
+  relatedLinks: {
+    beautysalonSlug: string;
+    sameAreaServices: ServicePageLink[];
+    sameServiceOtherAreas: ServicePageLink[];
+  };
+}

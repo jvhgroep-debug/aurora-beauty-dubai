@@ -6,7 +6,7 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "generate": "node scripts/generate-locaties.mjs",
+    "generate": "node scripts/generate-locaties.mjs && node scripts/generate-service-pages.mjs",
     "download-images": "node scripts/download-images.mjs",
     "dev": "npm run generate && astro dev",
     "build": "npm run generate && astro build",

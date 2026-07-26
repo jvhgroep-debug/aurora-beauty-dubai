@@ -1,0 +1,20 @@
+---
+import ServiceLocatiePage from '../components/ServiceLocatiePage.astro';
+import servicePages from '/src/data/service-pages.json';
+import type { ServicePage } from '../types';
+
+export async function getStaticPaths() {
+  return servicePages.map((page) => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+interface Props {
+  page: ServicePage;
+}
+
+const { page } = Astro.props;
+---
+
+<ServiceLocatiePage page={page} />

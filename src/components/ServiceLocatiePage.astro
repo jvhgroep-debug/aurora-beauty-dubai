@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from './Header.astro';
+import Hero from './Hero.astro';
+import ServiceGrid from './ServiceGrid.astro';
+import Testimonials from './Testimonials.astro';
+import Faq from './Faq.astro';
+import RelatedServiceLinks from './RelatedServiceLinks.astro';
+import Footer from './Footer.astro';
+import services from '/src/data/services.json';
+import testimonials from '/src/data/testimonials.json';
+import { buildServicePageSchema } from '../utils/service-schema';
+import type { ServicePage } from '../types';
+
+interface Props {
+  page: ServicePage;
+}
+
+const { page } = Astro.props;
+const schemaGraph = buildServicePageSchema(page);
+---
+
+<BaseLayout
+  title={page.seoTitle}
+  description={page.metaDescription}
+  canonicalUrl={`/${page.slug}/`}
+>
+  <Header locatieNaam={page.locationShortName} />
+  <main>
+    <Hero
+      h1={page.h1}
+      tagline={page.heroTagline}
+      locatieNaam={page.locationShortName}
+      heroImage={page.heroImage}
+      heroImageAlt={page.heroImageAlt}
+      subtitle={`Professional ${page.serviceName.toLowerCase()} for ${page.locationShortName} — visit Aurora at Azizi Riviera 40, Shop 10, Meydan.`}
+    />
+    <section id="about" class="py-14 md:py-20 bg-aurora-sand/30">
+      <div class="mx-auto max-w-7xl px-4 md:px-8">
+        <div class="max-w-3xl">
+          <p class="section-label mb-2">{page.serviceName} — {page.locationShortName}</p>
+          <h2 class="text-xl md:text-2xl font-semibold uppercase tracking-wider text-aurora-dark mb-6">
+            {page.serviceName} Near {page.locationShortName}, Dubai
+          </h2>
+          <p class="text-aurora-brown/90 leading-relaxed text-base md:text-lg">
+            {page.localContent}
+          </p>
+        </div>
+      </div>
+    </section>
+    <ServiceGrid
+      services={services}
+      sectionTitle={page.sectionTitle}
+      intro={page.intro}
+    />
+    <Testimonials
+      testimonials={testimonials}
+      locatieNaam={page.locationShortName}
+    />
+    <Faq
+      faqs={page.faqs}
+      locatieNaam={page.locationShortName}
+      faqTitle={`${page.serviceName} FAQ — ${page.locationShortName}`}
+    />
+    <RelatedServiceLinks
+      beautysalonSlug={page.relatedLinks.beautysalonSlug}
+      locationShortName={page.locationShortName}
+      sameAreaServices={page.relatedLinks.sameAreaServices}
+      sameServiceOtherAreas={page.relatedLinks.sameServiceOtherAreas}
+    />
+  </main>
+  <Footer locatieNaam={page.locationShortName} />
+</BaseLayout>
+
+<script type="application/ld+json" set:html={JSON.stringify(schemaGraph)} />

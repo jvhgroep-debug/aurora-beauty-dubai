@@ -1,0 +1,90 @@
+---
+import type { ServicePageLink } from '../types';
+
+interface Props {
+  beautysalonSlug: string;
+  locationShortName: string;
+  sameAreaServices: ServicePageLink[];
+  sameServiceOtherAreas: ServicePageLink[];
+}
+
+const { beautysalonSlug, locationShortName, sameAreaServices, sameServiceOtherAreas } = Astro.props;
+---
+
+<section class="py-16 bg-aurora-white border-t border-aurora-sand/60">
+  <div class="mx-auto max-w-7xl px-4 md:px-8">
+    <h2 class="text-xl md:text-2xl font-semibold uppercase tracking-wider text-aurora-dark mb-2">
+      Related Services & Areas
+    </h2>
+    <p class="text-sm text-aurora-brown/80 mb-8 max-w-2xl">
+      Explore more beauty services in {locationShortName} or visit our Azizi Riviera salon.
+    </p>
+
+    {sameAreaServices.length > 0 && (
+      <div class="mb-10">
+        <h3 class="text-sm font-semibold uppercase tracking-widest text-aurora-brown mb-4">
+          More services in {locationShortName}
+        </h3>
+        <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {sameAreaServices.map((link) => (
+            <li>
+              <a
+                href={`/${link.slug}/`}
+                class="group flex items-center justify-between border border-aurora-sand/80 bg-aurora-cream px-5 py-4 text-sm transition-colors hover:border-aurora-brown hover:bg-white"
+              >
+                <span class="font-medium text-aurora-dark group-hover:text-aurora-brown">{link.label}</span>
+                <span class="text-aurora-brown opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true">→</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {sameServiceOtherAreas.length > 0 && (
+      <div class="mb-10">
+        <h3 class="text-sm font-semibold uppercase tracking-widest text-aurora-brown mb-4">
+          Same service — other Dubai areas
+        </h3>
+        <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {sameServiceOtherAreas.map((link) => (
+            <li>
+              <a
+                href={`/${link.slug}/`}
+                class="group flex items-center justify-between border border-aurora-sand/80 bg-aurora-cream px-5 py-4 text-sm transition-colors hover:border-aurora-brown hover:bg-white"
+              >
+                <span class="font-medium text-aurora-dark group-hover:text-aurora-brown">{link.label}</span>
+                <span class="text-aurora-brown opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true">→</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <ul class="grid gap-3 sm:grid-cols-2">
+      <li>
+        <a
+          href={`/${beautysalonSlug}/`}
+          class="group flex items-center justify-between border border-aurora-sand/80 bg-aurora-cream px-5 py-4 text-sm transition-colors hover:border-aurora-brown hover:bg-white"
+        >
+          <span class="font-medium text-aurora-dark group-hover:text-aurora-brown">
+            Beauty Salon in {locationShortName}
+          </span>
+          <span class="text-aurora-brown opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true">→</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/"
+          class="group flex items-center justify-between border border-aurora-sand/80 bg-aurora-cream px-5 py-4 text-sm transition-colors hover:border-aurora-brown hover:bg-white"
+        >
+          <span class="font-medium text-aurora-dark group-hover:text-aurora-brown">
+            Aurora Beauty Lounge — Home
+          </span>
+          <span class="text-aurora-brown opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true">→</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
