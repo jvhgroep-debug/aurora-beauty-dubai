@@ -106,7 +106,7 @@ export const serviceDefinitions = [
     tag: 'Effortless Beauty',
     title: 'Extension - Full Set Classic',
     description:
-      'Lift and curl your natural lashes with our keratin lash lift, enhanced with a darkening tint. Results last 6-8 weeks with zero maintenance.',
+      'A full set of classic lash extensions, with individual extensions applied to natural lashes for added length and definition. This treatment is different from a lash lift.',
   },
   {
     id: 'volume-lash',
@@ -115,7 +115,7 @@ export const serviceDefinitions = [
     tag: 'Dramatic Glamour',
     title: 'Volume Lash Infill Extensions',
     description:
-      'Create stunning, full lashes with our volume technique. Multiple lightweight extensions applied to each natural lash for maximum impact.',
+      'Refresh an existing set of volume lash extensions by filling gaps and restoring fullness. Contact the salon before booking to check whether an infill or a new full set is suitable.',
   },
   {
     id: 'mega-volume',

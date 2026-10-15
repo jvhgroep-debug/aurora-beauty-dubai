@@ -417,8 +417,8 @@ export const wijken = [
     naam: 'Azizi Riviera',
     wijkSlug: 'azizi-riviera',
     isHomeBase: true,
-    wijkBeschrijving: 'Azizi Riviera is a waterfront Meydan community where French Mediterranean architecture meets Dubai\'s ambitious canal-side vision. Shop 10 at Building 40 is home to Aurora Beauty Lounge — your neighbourhood salon surrounded by cafés, retail, and scenic promenades. Residents enjoy a walkable, community-focused lifestyle with Meydan Racecourse and Dubai Creek Harbour just minutes away. This is where Aurora\'s story begins, and where every client receives our warmest welcome.',
-    intro: 'Welcome to Aurora Beauty Lounge — your home beauty salon in Azizi Riviera, Meydan. Step into Shop 10 and experience the full range of our luxury facials, lash artistry, brow services, and spa treatments, delivered by the team that knows your name.',
+    wijkBeschrijving: 'Aurora Beauty Lounge is located at Shop 10, Building 40, Azizi Riviera, Meydan, Dubai. This is our physical salon, where all appointments take place. Whether you live in Riviera or are visiting from another neighbourhood, use the full building and shop number when planning your journey. Explore the treatments below and contact the salon if you need help choosing an appointment.',
+    intro: 'Plan your beauty appointment in Azizi Riviera with our treatment list and published prices. Choose from VIP facials, classic lash extensions, volume lash infills, mega volume lashes, eyebrow lamination and our manicure, pedicure and lashes package. Check the booking system for availability or ask our team which treatment suits your needs.',
     nearby: ['nad-al-sheba', 'dubai-creek-harbour', 'al-jaddaf', 'mirdif', 'bur-dubai'],
   },
 ];

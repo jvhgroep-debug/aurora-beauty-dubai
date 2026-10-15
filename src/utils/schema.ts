@@ -1,5 +1,6 @@
 import type { Locatie } from '../types';
 import site from '/src/data/site.json';
+import homepage from '/src/data/homepage.json';
 
 const SITE_URL = site.siteUrl;
 
@@ -7,10 +8,10 @@ export function buildLocalBusinessSchema(locatie: Locatie) {
   return {
     '@context': 'https://schema.org',
     '@type': 'BeautySalon',
-    '@id': `${SITE_URL}/beautysalon-azizi-riviera/#localbusiness`,
+    '@id': `${SITE_URL}/#organization`,
     name: site.name,
     description: locatie.metaDescription,
-    url: `${SITE_URL}/beautysalon-azizi-riviera/`,
+    url: `${SITE_URL}/`,
     telephone: site.phone,
     email: site.email,
     image: `${SITE_URL}${site.socialImage}`,
@@ -83,7 +84,7 @@ export function buildAreaPageSchema(locatie: Locatie) {
       name: `Beauty Salon Services in ${locatie.naam}`,
       description: locatie.metaDescription,
       provider: {
-        '@id': `${SITE_URL}/beautysalon-azizi-riviera/#localbusiness`,
+        '@id': `${SITE_URL}/#organization`,
       },
       areaServed: {
         '@type': 'Place',
@@ -141,9 +142,8 @@ export function buildHomepageSchema() {
       '@type': 'WebPage',
       '@id': `${homepageUrl}#webpage`,
       url: homepageUrl,
-      name: 'Luxury Beauty Salon Dubai | Aurora Beauty Lounge',
-      description:
-        'Aurora Beauty Lounge is a luxury beauty salon in Dubai offering hair, nails, facials, massage, brows and lashes. Visit us at Azizi Riviera, Meydan.',
+      name: homepage.seoTitle,
+      description: homepage.metaDescription,
       isPartOf: { '@id': `${SITE_URL}/#website` },
       about: {
         '@type': 'BeautySalon',
@@ -249,7 +249,7 @@ export function buildSchema(locatie: Locatie) {
         '@id': `${SITE_URL}/#website`,
         url: SITE_URL,
         name: site.name,
-        publisher: { '@id': `${SITE_URL}/beautysalon-azizi-riviera/#localbusiness` },
+        publisher: { '@id': `${SITE_URL}/#organization` },
       },
       faqSchema,
     ];

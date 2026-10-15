@@ -1,0 +1,14 @@
+---
+import site from '/src/data/site.json';
+const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent('Aurora Beauty Lounge, Azizi Riviera 40, Shop 10, Meydan, Dubai')}`;
+---
+<section class="py-12 bg-aurora-cream" aria-labelledby="visit-salon-title">
+  <div class="mx-auto max-w-7xl px-4 md:px-8">
+    <h2 id="visit-salon-title" class="section-heading mb-6">Plan Your Visit to Azizi Riviera</h2>
+    <div class="grid gap-8 md:grid-cols-3 text-sm text-aurora-brown leading-relaxed">
+      <div><h3 class="font-semibold text-aurora-dark mb-2">Find the salon</h3><p>All appointments take place at Azizi Riviera 40, Shop 10, Meydan, Dubai. Check your route before leaving and contact us for help with arrival or parking.</p><a href={mapUrl} target="_blank" rel="noopener noreferrer" class="inline-block mt-3 underline underline-offset-4">Get directions on Google Maps</a></div>
+      <div><h3 class="font-semibold text-aurora-dark mb-2">Compare treatments and prices</h3><p>Our treatment list below includes prices in AED. Classic extensions are a full set; a volume infill maintains an existing set. Ask the team if you are unsure which appointment to choose.</p><a href="#services" class="inline-block mt-3 underline underline-offset-4">View treatments and prices</a></div>
+      <div><h3 class="font-semibold text-aurora-dark mb-2">Book your appointment</h3><p>Check available treatments and appointment times online. For questions about your visit, call {site.phone}.</p><a href={site.bookingUrl} target="_blank" rel="noopener noreferrer" class="inline-block mt-3 underline underline-offset-4">Check availability and book</a></div>
+    </div>
+  </div>
+</section>

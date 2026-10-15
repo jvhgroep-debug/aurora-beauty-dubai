@@ -28,7 +28,7 @@ export function buildServicePageSchema(page: ServicePage) {
       description: page.metaDescription,
       serviceType: page.serviceType,
       provider: {
-        '@id': `${SITE_URL}/beautysalon-azizi-riviera/#localbusiness`,
+        '@id': `${SITE_URL}/#organization`,
       },
       areaServed: {
         '@type': 'Place',

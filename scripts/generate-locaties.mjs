@@ -41,15 +41,15 @@ console.log(`Generated ${services.length} services with images → src/data/serv
 const locaties = wijken.map((wijk, index) => {
   const isHomeBase = wijk.isHomeBase ?? wijk.wijkSlug === HOME_BASE;
   const h1 = isHomeBase
-    ? 'Beauty Salon in Azizi Riviera — Aurora Beauty Lounge'
+    ? 'Your Beauty Salon in Azizi Riviera, Meydan'
     : `Beauty Salon in ${wijk.naam}`;
 
   const seoTitle = isHomeBase
-    ? 'Beauty Salon in Azizi Riviera, Meydan | Aurora Beauty Lounge'
+    ? 'Azizi Riviera Beauty Salon, Meydan | Aurora by Tolou'
     : `Beauty Salon in ${wijk.naam} | Aurora Beauty Lounge`;
 
   const metaDescription = isHomeBase
-    ? 'Visit Aurora Beauty Lounge at Azizi Riviera 40, Shop 10, Meydan, Dubai. Luxury facials, lash extensions, brows, manicures & spa treatments. Book your appointment today.'
+    ? 'Visit Aurora by Tolou at Azizi Riviera 40, Shop 10, Meydan. View facial, lash and brow treatments with prices, find directions and book your salon appointment.'
     : `Looking for a beauty salon in ${wijk.naam}? Aurora Beauty Lounge at Azizi Riviera, Meydan serves ${wijk.naam} with luxury facials, lashes, brows & spa treatments. Book now.`;
 
   const nearbySlugs = wijk.nearby

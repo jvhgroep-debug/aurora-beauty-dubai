@@ -37,7 +37,7 @@ export function generateFaqs(wijk, isHomeBase) {
       {
         question: 'Is parking available near Aurora Beauty Lounge in Azizi Riviera?',
         answer:
-          'Yes. Azizi Riviera offers convenient community parking for visitors. Our salon at Shop 10 is easy to reach by car from Sheikh Mohammed bin Zayed Road, Al Khail Road, and the Meydan area.',
+          'Contact the salon before your visit for current parking and arrival advice. Use Azizi Riviera 40, Shop 10, Meydan, Dubai as your destination; parking availability and restrictions may vary.',
       },
     ];
   }
