@@ -1,0 +1,15 @@
+---
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import { publishedBlogPosts } from '../../data/blog';
+---
+<BlogLayout title="Beauty Journal: Salon Visits & Booking Tips | Aurora Dubai" description="Practical beauty salon guides from Aurora Beauty Lounge by Tolou in Azizi Riviera, Meydan, Dubai. Plan your next appointment.">
+  <p class="section-label mb-3">The Aurora Journal</p>
+  <h1 class="section-heading mb-6">Beauty, thoughtfully planned</h1>
+  <p class="mb-12 leading-relaxed">Explore practical guides to booking and visiting our beauty salon in Azizi Riviera, Meydan.</p>
+  <div class="grid gap-8">
+    {publishedBlogPosts.map(post => <article class="overflow-hidden border border-aurora-sand bg-aurora-white">
+      <a href={`/blog/${post.slug}/`}><img src={post.image} alt={post.imageAlt} width="1280" height="1279" class="aspect-[3/2] w-full object-cover" loading="lazy" /></a>
+      <div class="p-6"><p class="mb-3 text-sm">{post.datePublished.slice(0, 10)}</p><h2 class="mb-3 text-2xl font-semibold"><a href={`/blog/${post.slug}/`}>{post.heading}</a></h2><p class="mb-5 leading-relaxed">{post.description}</p><a class="underline underline-offset-4" href={`/blog/${post.slug}/`}>Read the guide →</a></div>
+    </article>)}
+  </div>
+</BlogLayout>

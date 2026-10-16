@@ -1,0 +1,20 @@
+---
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import { publishedBlogPosts } from '../../data/blog';
+import site from '../../data/site.json';
+export function getStaticPaths() { return publishedBlogPosts.map(post => ({ params: { slug: post.slug }, props: { post } })); }
+const { post } = Astro.props;
+const url = `${site.siteUrl}/blog/${post.slug}/`;
+const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: post.heading, description: post.description, url, mainEntityOfPage: url, datePublished: post.datePublished, dateModified: post.datePublished, inLanguage: 'en', image: new URL(post.image, site.siteUrl).href, author: { '@type': 'Organization', name: 'Aurora Beauty Lounge by Tolou', url: site.siteUrl }, publisher: { '@type': 'Organization', name: site.name, url: site.siteUrl } };
+---
+<BlogLayout title={post.title} description={post.description}>
+  <p class="mb-6 text-sm"><a href="/blog/" class="underline underline-offset-4">← Aurora Journal</a></p>
+  <article>
+    <header><p class="section-label mb-3">Your salon visit</p><h1 class="section-heading mb-6">{post.heading}</h1><p class="mb-8 text-sm"><time datetime={post.datePublished}>{post.datePublished.slice(0, 10)}</time> · Aurora Beauty Lounge by Tolou</p></header>
+    <img src={post.image} alt={post.imageAlt} width="1280" height="1279" class="mb-10 aspect-[3/2] w-full object-cover" fetchpriority="high" />
+    <p class="mb-10 text-lg leading-relaxed">{post.intro}</p>
+    {post.sections.map(section => <section class="mb-10"><h2 class="mb-4 text-xl font-semibold md:text-2xl">{section.heading}</h2>{section.paragraphs.map(paragraph => <p class="mb-4 leading-relaxed">{paragraph}</p>)}{'href' in section && <a href={section.href} class="font-semibold underline underline-offset-4">{section.label} →</a>}</section>)}
+    <aside class="border border-aurora-sand bg-aurora-white p-7"><h2 class="mb-4 text-2xl font-semibold">Ready to plan your visit?</h2><p class="mb-6 leading-relaxed">Check your preferred service and appointment details. Our WhatsApp button also lets you send the team your questions.</p><a href={site.bookingUrl} class="btn-primary" target="_blank" rel="noopener noreferrer">Check appointments</a></aside>
+  </article>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+</BlogLayout>
