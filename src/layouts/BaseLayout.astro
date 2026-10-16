@@ -7,14 +7,15 @@ interface Props {
   title: string;
   description: string;
   canonicalUrl?: string;
+  socialImage?: string | null;
 }
 
-const { title, description, canonicalUrl } = Astro.props;
+const { title, description, canonicalUrl, socialImage = site.socialImage } = Astro.props;
 const siteUrl = Astro.site?.origin ?? site.siteUrl;
 const url = canonicalUrl
   ? new URL(canonicalUrl, siteUrl).href
   : new URL(Astro.url.pathname, siteUrl).href;
-const socialImageUrl = new URL(site.socialImage, siteUrl).href;
+const socialImageUrl = socialImage ? new URL(socialImage, siteUrl).href : null;
 ---
 
 <!doctype html>
@@ -31,12 +32,12 @@ const socialImageUrl = new URL(site.socialImage, siteUrl).href;
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={url} />
-    <meta property="og:image" content={socialImageUrl} />
-    <meta property="og:image:alt" content="Aurora Beauty Lounge — luxury beauty salon in Dubai" />
-    <meta name="twitter:card" content="summary_large_image" />
+    {socialImageUrl && <meta property="og:image" content={socialImageUrl} />}
+    {socialImageUrl && <meta property="og:image:alt" content="Aurora Beauty Lounge — luxury beauty salon in Dubai" />}
+    <meta name="twitter:card" content={socialImageUrl ? 'summary_large_image' : 'summary'} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={socialImageUrl} />
+    {socialImageUrl && <meta name="twitter:image" content={socialImageUrl} />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

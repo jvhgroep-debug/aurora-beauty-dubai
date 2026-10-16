@@ -8,8 +8,10 @@
     "originalScheduledAt": "2026-10-16T12:00:00+04:00",
     "published": true,
     "datePublished": "2026-10-16T12:02:00+04:00",
-    "image": "/images/services/vip-special.jpg",
-    "imageAlt": "Beauty services featured by Aurora Beauty Lounge in Azizi Riviera",
+    "image": null,
+    "imageAlt": "",
+    "imageApproved": false,
+    "imageNote": "Removed at Johan’s request on 2026-10-16. The former vip-special.jpg came from the original site gallery, but its authenticity and location are not verified. Await an approved genuine photograph; do not substitute AI imagery.",
     "intro": "Booking your first appointment at a beauty salon is easier when you know what to ask. At Aurora Beauty Lounge by Tolou, the salon is located at Azizi Riviera 40, Shop 10, Meydan, Dubai. This practical checklist helps you choose what to enquire about, share your preferences and check the details before you arrive.",
     "sections": [
       {

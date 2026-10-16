@@ -2,10 +2,10 @@
 import BaseLayout from './BaseLayout.astro';
 import Footer from '../components/Footer.astro';
 import site from '../data/site.json';
-interface Props { title: string; description: string; }
-const { title, description } = Astro.props;
+interface Props { title: string; description: string; socialImage?: string | null; }
+const { title, description, socialImage = null } = Astro.props;
 ---
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} socialImage={socialImage}>
   <header class="border-b border-aurora-sand">
     <nav class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-5 px-5 py-6" aria-label="Blog navigation">
       <a href="/" class="font-serif text-3xl">Aurora <span class="font-sans text-xs tracking-widest">BY TOLOU</span></a>
