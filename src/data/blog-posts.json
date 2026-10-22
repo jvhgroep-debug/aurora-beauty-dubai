@@ -126,5 +126,74 @@
         "label": "Read the first-visit booking checklist"
       }
     ]
+  },
+  {
+    "slug": "lash-infill-meydan-existing-extensions-booking",
+    "title": "Lash Infill in Meydan: What to Share Before Booking | Aurora",
+    "heading": "Booking a lash infill in Meydan: what to tell the salon about your existing extensions",
+    "description": "Planning a lash infill in Meydan? Share your previous appointment, current extensions and style preferences before choosing a slot at Aurora in Azizi Riviera.",
+    "website": "https://aurorasalondubai.com",
+    "originalScheduledAt": "2026-10-22T12:00:00+04:00",
+    "published": true,
+    "datePublished": "2026-10-22T08:01:32.549Z",
+    "dateModified": "2026-10-22T08:01:32.549Z",
+    "image": "/images/services/volume-lash.webp",
+    "imageAlt": "Lash-extension service photograph from Aurora’s existing volume-lash gallery",
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776082949476_bhz3d8u40.webp",
+    "imageNote": "Existing salon-website photograph authorized by Johan, 16 October 2026. Service illustration, not a promised individual outcome or a new client case.",
+    "intro": "Already wearing lash extensions and wondering which appointment to choose next? Aurora Beauty Lounge by Tolou lists Volume Lash Infill Extensions among its services. An infill enquiry starts with what you are wearing now, rather than just the look you would like next. Before selecting an appointment in Meydan, put together a short account of your current extensions so the team can discuss the appropriate booking.",
+    "sections": [
+      {
+        "heading": "Start with your previous appointment, not an assumed maintenance interval",
+        "paragraphs": [
+          "Tell the salon when your extensions were applied or last maintained and whether the appointment was at Aurora or elsewhere. If you have the previous service name, include it. A date and a service name give the team more useful context than saying that your lashes are simply due for a top-up.",
+          "Do not assume that a particular number of days automatically qualifies you for an infill. Ask how Aurora assesses the existing set and whether the appointment you are considering is appropriate. The salon needs to confirm its own requirements; this guide does not set a maintenance interval or a minimum amount of remaining extensions."
+        ]
+      },
+      {
+        "heading": "Describe what is on your lashes now",
+        "paragraphs": [
+          "Explain whether you know the style or type of extensions currently applied. If you do not know, say so rather than selecting a label that may be inaccurate. Mention whether you are enquiring about maintaining the same style or discussing a change.",
+          "For example, a useful enquiry could read: “I currently have extensions applied at another salon on [date]. I would like to keep a similar look. Which appointment should I discuss before booking?” This is a message outline, not an example of an Aurora customer or a promise that another salon’s work can be infilled."
+        ]
+      },
+      {
+        "heading": "Ask how existing work affects the service choice",
+        "paragraphs": [
+          "An infill appointment and a new set should not be treated as interchangeable bookings. Ask the team whether it can assess your existing extensions, which information it needs first and whether an in-person discussion is required. If removal or a different service might be relevant, have that clarified before choosing your appointment.",
+          "Keep questions about products, sensitivities or previous reactions separate and explicit. Raise any discomfort or concern directly before booking instead of assuming a routine infill will address it. The team can explain its booking process and tell you what further professional advice may be needed."
+        ],
+        "href": "/#services",
+        "label": "See Aurora’s listed lash and beauty services"
+      },
+      {
+        "heading": "Explain the change you want without booking by a photograph alone",
+        "paragraphs": [
+          "If you want to discuss a different finish, identify the change: a softer overall appearance, a different emphasis or simply a return to the style you previously liked. A reference image can help explain a preference, but it does not establish which service is suitable or which result is achievable.",
+          "The photograph in this article comes from Aurora’s existing volume-lash service gallery. Use it to understand the subject of the enquiry, rather than as an assurance that your current set can be maintained to match it. Ask the team to explain the options for your own appointment."
+        ]
+      },
+      {
+        "heading": "Confirm the service, total and time before committing",
+        "paragraphs": [
+          "Once the service choice is clear, check the name and current total on Aurora’s existing booking page. Ask how much time to set aside for the agreed appointment and request preparation and aftercare instructions for that service. Avoid relying on the timing or instructions from an unrelated lash treatment.",
+          "If you have also discussed another service, confirm whether it requires its own appointment. Keep any agreed change with your booking confirmation so the team and guest are referring to the same plan. A WhatsApp conversation is an enquiry until the appointment details are confirmed."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Review Aurora’s appointment options"
+      },
+      {
+        "heading": "Send one clear enquiry before your visit to Meydan",
+        "paragraphs": [
+          "Keep your message short: date of the previous appointment, whether it was at Aurora, the service name if known, what you would like to maintain or change, and your preferred appointment date. Ask which slot to book rather than reserving an infill on an assumption.",
+          "Aurora is at Azizi Riviera 40, Shop 10, Meydan, Dubai. Keep the full address with your confirmation. For broader arrival and booking preparation, the first-visit checklist brings together the practical details you may want to check before travelling."
+        ],
+        "href": "/blog/first-beauty-salon-visit-azizi-riviera-checklist/",
+        "label": "Read the first-visit checklist"
+      }
+    ],
+    "imageWidth": 1022,
+    "imageHeight": 818
   }
 ]
