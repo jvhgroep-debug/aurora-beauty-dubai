@@ -195,5 +195,80 @@
     ],
     "imageWidth": 1022,
     "imageHeight": 818
+  },
+  {
+    "slug": "manicure-pedicure-lashes-one-visit-meydan",
+    "title": "Manicure, Pedicure & Lashes in One Visit | Aurora Meydan",
+    "heading": "Manicure, pedicure and lashes in one Meydan visit: plan the appointment properly",
+    "description": "Combining nails and lashes at Aurora in Meydan? Plan your service choices, existing work and appointment sequence before booking the VIP Special.",
+    "website": "https://aurorasalondubai.com",
+    "slot": 4,
+    "originalScheduledAt": "2026-10-25T03:00:00+04:00",
+    "originalCalendarDate": "2026-10-25",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "source-committed-awaiting-live-verification",
+    "datePublished": "2026-10-25T00:09:24.767Z",
+    "dateModified": "2026-10-25T00:09:24.767Z",
+    "image": "/images/services/vip-special.jpg",
+    "imageAlt": "Manicure, pedicure and lash service photograph from Aurora’s existing VIP Special gallery",
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776078663178_pmg35lc4b.jpg",
+    "imageNote": "Existing salon website gallery photograph; authorized by Johan’s 16 October photo policy. No generated image or claimed new customer result.",
+    "intro": "Want to arrange a manicure, pedicure and lashes without making three separate trips? Aurora Beauty Lounge by Tolou lists a VIP Special combining those services. The useful next step is to agree what your particular visit involves: which nail work you want, what is already on your nails or lashes, and how the appointments will fit together. Use this planning guide before selecting a time at Azizi Riviera 40, Shop 10, Meydan.",
+    "sections": [
+      {
+        "heading": "Make a three-part service list before choosing a time",
+        "paragraphs": [
+          "Write down your request under three headings: hands, feet and lashes. Under each, describe what you would like to discuss rather than simply writing “the full package”. For nails, explain whether you want to keep a similar finish or discuss a change. For lashes, say whether this would be a new set or a conversation about extensions you already wear.",
+          "This separates your priorities from your assumptions. If lashes are the main reason for the visit and nails are optional, say so. It helps the salon clarify the appropriate service combination rather than treating every request as an identical appointment."
+        ],
+        "href": "/#services",
+        "label": "See Aurora’s listed services and VIP Special"
+      },
+      {
+        "heading": "Mention existing polish, enhancements or extensions",
+        "paragraphs": [
+          "Tell the team what is currently on your nails and lashes, including work applied elsewhere. If you do not know the product or service name, say that. Ask whether any removal or assessment is needed and whether it forms part of the appointment you are considering.",
+          "Do not book a particular slot on the assumption that all preparation is included. A request to maintain an existing look can involve different work from a request to change it. Have any additional service, time and charge clarified before confirming. For existing lash extensions, the separate infill guide explains which details to gather."
+        ],
+        "href": "/blog/lash-infill-meydan-existing-extensions-booking/",
+        "label": "Prepare the details of your existing lash extensions"
+      },
+      {
+        "heading": "Ask about the sequence as well as the total appointment time",
+        "paragraphs": [
+          "The VIP Special description presents the services as a combined visit. Ask Aurora which parts of your chosen appointment can be arranged together, which happen in sequence and how much time to keep free from arrival to completion. The listing alone is not confirmation that a particular arrangement is available at your preferred time.",
+          "If you have a firm departure time, give that time when enquiring. Ask whether the proposed combination fits before reserving it. Avoid adding the shortest advertised duration for each service or assuming that simultaneous work means you can arrive later. Keep the agreed arrival and finish expectations with your confirmation."
+        ]
+      },
+      {
+        "heading": "Agree on a style brief for each service",
+        "paragraphs": [
+          "Choose a small number of references and label what you like in each: a nail colour, shape or overall lash appearance. Different photographs can communicate different ideas, so explain which detail matters rather than asking the team to reproduce an entire image.",
+          "Keep separate questions about products, previous reactions or other concerns explicit. Request the preparation and aftercare instructions for every service you select. A combined appointment does not make instructions from one treatment applicable to another. This article makes no individual suitability assessment or promise about results."
+        ]
+      },
+      {
+        "heading": "Review the complete booking before confirming",
+        "paragraphs": [
+          "Check that the booking names the agreed combination and any separately discussed work. Review the current total, date, start time and provider’s change or cancellation terms on the existing booking page. Ask the team to resolve anything that differs from your enquiry before you confirm.",
+          "For an efficient message, use this outline: “I would like to discuss the VIP Special on [preferred date]. Hands: [request and existing work]. Feet: [request and existing work]. Lashes: [new or existing set]. I need to leave by [time, if relevant]. Which appointment should I book?” Replace the brackets with your details; this is a planning example, not a customer case."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Review Aurora’s current booking options"
+      },
+      {
+        "heading": "Keep one clear plan for your visit to Meydan",
+        "paragraphs": [
+          "Save the confirmed services, arrival time, total and any preparation instructions together. Use the full salon address, Azizi Riviera 40, Shop 10, Meydan, Dubai, when arranging your journey. If you need help with the entrance, ask before leaving.",
+          "A WhatsApp enquiry helps clarify the plan, but it is not automatically a confirmed multi-service appointment. Wait for confirmation of the arrangements, then bring your questions and agreed references. Our first-visit checklist covers the broader arrival details if you have not visited Aurora before."
+        ],
+        "href": "/blog/first-beauty-salon-visit-azizi-riviera-checklist/",
+        "label": "Read the first salon visit checklist"
+      }
+    ],
+    "imageWidth": 1280,
+    "imageHeight": 1279
   }
 ]
