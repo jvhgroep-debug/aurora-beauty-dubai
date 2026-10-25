@@ -205,9 +205,9 @@
     "slot": 4,
     "originalScheduledAt": "2026-10-25T03:00:00+04:00",
     "originalCalendarDate": "2026-10-25",
-    "published": false,
+    "published": true,
     "publicationReady": true,
-    "publicationStatus": "source-committed-awaiting-live-verification",
+    "publicationStatus": "live-verified",
     "datePublished": "2026-10-25T00:09:24.767Z",
     "dateModified": "2026-10-25T00:09:24.767Z",
     "image": "/images/services/vip-special.jpg",
@@ -269,6 +269,9 @@
       }
     ],
     "imageWidth": 1280,
-    "imageHeight": 1279
+    "imageHeight": 1279,
+    "publicVerifiedAt": "2026-10-25T00:13:02.995Z",
+    "deploymentCommit": "dc1816d7458e96bab48e25384a29d0dd228e68e4",
+    "publicUrl": "https://aurorasalondubai.com/blog/manicure-pedicure-lashes-one-visit-meydan/"
   }
 ]
