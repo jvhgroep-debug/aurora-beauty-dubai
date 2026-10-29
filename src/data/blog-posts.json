@@ -273,5 +273,67 @@
     "publicVerifiedAt": "2026-10-25T00:13:02.995Z",
     "deploymentCommit": "dc1816d7458e96bab48e25384a29d0dd228e68e4",
     "publicUrl": "https://aurorasalondubai.com/blog/manicure-pedicure-lashes-one-visit-meydan/"
+  },
+  {
+    "slug": "vip-facial-meydan-consultation-questions",
+    "title": "VIP Facial in Meydan: Questions Before Booking | Aurora",
+    "heading": "Before booking a VIP Facial in Meydan: make your consultation questions specific",
+    "description": "Considering Aurora’s VIP Facial in Meydan? Prepare questions about the service, products, appointment and your preferences before choosing a booking.",
+    "website": "https://aurorasalondubai.com",
+    "originalScheduledAt": "2026-10-28T03:00:00+04:00",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "deployment-pending",
+    "datePublished": "2026-10-29T20:32:19.877Z",
+    "dateModified": "2026-10-29T20:32:19.877Z",
+    "image": "/images/services/vip-facial.jpg",
+    "imageAlt": "Facial treatment photograph from Aurora’s existing VIP Facial service gallery",
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776077225106_et8lozkeb.jpg",
+    "imageNote": "Existing salon service-gallery photograph approved under Johan’s 16 October policy. General service photograph; no guaranteed individual result.",
+    "intro": "A facial enquiry is easier to answer when it describes what you want to discuss. Aurora Beauty Lounge by Tolou lists a VIP Facial among its services in Azizi Riviera, Meydan. Rather than choosing an appointment from its name alone, prepare a short set of questions about what the service includes, the products used and the booking arrangements. This guide helps you organise that conversation without assuming that a particular treatment is suitable for you.",
+    "sections": [
+      {
+        "heading": "Describe your aim in ordinary words",
+        "paragraphs": [
+          "Start with the reason you are considering a facial. You might want to understand the listed service, ask about the appointment experience or discuss preferences before reserving a time. Put that aim into a sentence the team can respond to rather than asking only for the best facial.",
+          "Separate what you would like to discuss from what you expect a treatment to achieve. A service description or a photograph does not establish an individual outcome. Ask the team what it can explain about your enquiry; do not treat a gallery image as a promise of the same result."
+        ]
+      },
+      {
+        "heading": "Ask what is included in the specific appointment",
+        "paragraphs": [
+          "The existing VIP Facial description lists cleansing, exfoliation, extraction, a mask and facial massage. Ask which elements apply to the appointment you are considering and whether the team needs a consultation before confirming the service. The current booking listing and the salon’s reply should resolve any uncertainty.",
+          "If there is an element you would prefer to discuss or avoid, name it before booking. Ask whether that changes the service, booking option or displayed total. Do not assume that an online service name includes every extra you have seen mentioned elsewhere."
+        ],
+        "href": "/#services",
+        "label": "Browse Aurora’s current service overview"
+      },
+      {
+        "heading": "Raise product questions before choosing a slot",
+        "paragraphs": [
+          "If ingredients, a previous reaction or a recent treatment are relevant to your enquiry, tell the salon before reserving the appointment. Ask how to share the information appropriately and which product details it can provide. Keep your first message focused on the question rather than sending sensitive personal information unnecessarily.",
+          "Do not combine preparation tips from unrelated treatments into your own plan. Ask Aurora for the instructions that apply to the exact service being discussed. If the question needs assessment by a qualified healthcare professional, resolve that separately before relying on a salon booking. This article does not determine individual suitability."
+        ]
+      },
+      {
+        "heading": "Check timing, price and appointment terms together",
+        "paragraphs": [
+          "Tell the team if you are considering a visit before work, travel or an event. Ask how much appointment time to allow and whether any preparation or follow-up instructions affect those plans. Avoid promising yourself a particular treatment result or building a tight timetable around an assumed duration.",
+          "Before confirming, review the selected service, date, time and current total on the booking page. Check the provider’s change and cancellation terms and keep the confirmation. A WhatsApp enquiry is a conversation about an appointment; it is not itself a reserved slot."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Check the current appointment options"
+      },
+      {
+        "heading": "Turn your questions into one useful enquiry",
+        "paragraphs": [
+          "A clear first message can say: I am interested in the VIP Facial, I would like to ask about the listed appointment, and my preferred date is this day. Add your main question about inclusions, products or preparation, then ask which information the team needs before you book. Use the existing WhatsApp questions button to prepare your enquiry.",
+          "Once the service and appointment details are clear, confirm how to find the salon at Azizi Riviera 40, Shop 10, Meydan, Dubai. Keep the booking confirmation and the exact building and shop number together. For general arrival and first-visit planning, the separate checklist below covers the practical details."
+        ],
+        "href": "/blog/first-beauty-salon-visit-azizi-riviera-checklist/",
+        "label": "Read the first salon-visit checklist"
+      }
+    ]
   }
 ]
