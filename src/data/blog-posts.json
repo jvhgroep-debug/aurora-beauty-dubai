@@ -281,9 +281,9 @@
     "description": "Considering Aurora’s VIP Facial in Meydan? Prepare questions about the service, products, appointment and your preferences before choosing a booking.",
     "website": "https://aurorasalondubai.com",
     "originalScheduledAt": "2026-10-28T03:00:00+04:00",
-    "published": false,
+    "published": true,
     "publicationReady": true,
-    "publicationStatus": "deployment-pending",
+    "publicationStatus": "public-verified",
     "datePublished": "2026-10-29T20:32:19.877Z",
     "dateModified": "2026-10-29T20:32:19.877Z",
     "image": "/images/services/vip-facial.jpg",
@@ -334,6 +334,8 @@
         "href": "/blog/first-beauty-salon-visit-azizi-riviera-checklist/",
         "label": "Read the first salon-visit checklist"
       }
-    ]
+    ],
+    "publicVerifiedAt": "2026-10-29T20:34:45.923Z",
+    "deploymentCommit": "9bf8532449912d1a40375875de666315447fef71"
   }
 ]
