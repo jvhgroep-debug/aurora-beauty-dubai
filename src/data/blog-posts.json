@@ -347,9 +347,9 @@
     "title": "Manicure in Meydan: Prepare Your Reference Photos | Aurora",
     "heading": "Manicure and pedicure in Meydan: turn reference photos into a clear brief",
     "description": "Choosing nail reference photos for a Meydan salon visit? Prepare a clear colour and style brief, explain existing work and confirm the right booking with Aurora.",
-    "published": false,
+    "published": true,
     "publicationReady": true,
-    "publicationStatus": "deployment-pending",
+    "publicationStatus": "public-verified",
     "datePublished": "2026-10-31T03:14:18.489404+04:00",
     "dateModified": "2026-10-31T03:14:18.489404+04:00",
     "image": "/images/services/vip-special.jpg",
@@ -420,6 +420,11 @@
       "previousCaptainDeployment": "appgdep_6ae52343c30c819192b38373ee183f50",
       "previousCaptainDeploymentStatus": "succeeded",
       "previousCaptainPublicCheck": "Article, photograph, overview and homepage confirmed; separate sitemap verification blocked, recorded durably; no active work remains."
-    }
+    },
+    "publicVerifiedAt": "2026-10-31T03:18:43.815441+04:00",
+    "deploymentCommit": "58f30dc9230945b1ad073299ad5041a89becadc5",
+    "deploymentId": "23635576-43cc-41d5-beef-08b300ae9a12",
+    "publicUrl": "https://aurorasalondubai.com/blog/manicure-pedicure-meydan-reference-photo-brief/",
+    "verification": "Cloudflare success; actual domain article/H1/canonical/photo loaded, booking link, blog overview, homepage and public sitemap verified in browser; no messages sent."
   }
 ]
