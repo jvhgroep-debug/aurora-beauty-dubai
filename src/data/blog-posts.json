@@ -337,5 +337,89 @@
     ],
     "publicVerifiedAt": "2026-10-29T20:34:45.923Z",
     "deploymentCommit": "9bf8532449912d1a40375875de666315447fef71"
+  },
+  {
+    "website": "https://aurorasalondubai.com",
+    "slotId": "aurorasalondubai.com|2026-10-31|1",
+    "slot": 6,
+    "originalScheduledAt": "2026-10-31T03:00:00+04:00",
+    "slug": "manicure-pedicure-meydan-reference-photo-brief",
+    "title": "Manicure in Meydan: Prepare Your Reference Photos | Aurora",
+    "heading": "Manicure and pedicure in Meydan: turn reference photos into a clear brief",
+    "description": "Choosing nail reference photos for a Meydan salon visit? Prepare a clear colour and style brief, explain existing work and confirm the right booking with Aurora.",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "deployment-pending",
+    "datePublished": "2026-10-31T03:14:18.489404+04:00",
+    "dateModified": "2026-10-31T03:14:18.489404+04:00",
+    "image": "/images/services/vip-special.jpg",
+    "imageWidth": 1280,
+    "imageHeight": 1279,
+    "imageAlt": "Manicure and pedicure service photograph from Aurora’s existing VIP Special gallery",
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776078663178_pmg35lc4b.jpg",
+    "imageNote": "Existing salon gallery photograph authorised by Johan. General service photography, not a promised finish or a new customer result.",
+    "searchIntent": "How to prepare nail reference photos and a usable appointment brief before booking",
+    "intro": "Choose one main reference photo, explain exactly which detail you like, and tell the salon what is already on your nails before selecting an appointment. A saved image alone does not identify the service, time or work your visit requires. Aurora’s VIP Special lists manicure and pedicure alongside lashes; ask the team which booking suits your nail request. Use the short brief below to make that conversation clear before travelling to Azizi Riviera 40, Shop 10, Meydan.",
+    "sections": [
+      {
+        "heading": "Label the detail you like, not just the whole photograph",
+        "paragraphs": [
+          "Look at your main reference and finish this sentence: “The part I want to discuss is…” It could be the colour family, the overall shape, the length or one decorative detail. Naming the priority helps the team understand what you are asking about instead of interpreting every visible feature as a requirement.",
+          "If a photograph shows several different ideas, say which ones you do not need. For example: “I like the soft colour in this picture; the decoration is not essential.” This is a sample enquiry, not a statement that Aurora offers a particular design, product or technique. The salon must confirm what it can provide."
+        ]
+      },
+      {
+        "heading": "Use one alternative to show where you are flexible",
+        "paragraphs": [
+          "Keep a second image only if it helps explain a real alternative. A long collection of unrelated pictures can hide the decision you need help with. Give each image a short label so a colour reference is not mistaken for a request to copy the shape or decoration.",
+          "Separate your main preference from the parts you would be happy to change. Ask whether the selected service can accommodate your request and what alternatives the team suggests. A reference image communicates an idea; it does not guarantee an identical finish or establish that a design is available."
+        ]
+      },
+      {
+        "heading": "Describe the starting point on your own nails",
+        "paragraphs": [
+          "Tell Aurora whether you currently have polish, other nail work or a previous salon finish. If you know the service or product name, include it; if you do not, say so. Mention whether your hands and feet need different work rather than sending one image as a description of both.",
+          "Ask whether the starting condition changes the booking and whether any separately discussed work needs extra time or a different total. Do not assume that preparation or removal is included in an appointment. The team should identify the appropriate booking after considering your actual request."
+        ]
+      },
+      {
+        "heading": "Make separate notes for hands and feet",
+        "paragraphs": [
+          "A useful brief has two lines: hands — current work and preferred detail; feet — current work and preferred detail. State whether you want the same colour direction or different choices. This helps avoid an assumption that one reference automatically describes the entire manicure and pedicure.",
+          "You can ask to discuss the manicure and pedicure mentioned in Aurora’s VIP Special without presuming that the package or every service combination is the right choice. If you are also considering lashes, explain that separately and confirm how the appointments would be arranged."
+        ],
+        "href": "/blog/manicure-pedicure-lashes-one-visit-meydan/",
+        "label": "Plan a combined nails-and-lashes enquiry"
+      },
+      {
+        "heading": "Confirm the service before building your day around it",
+        "paragraphs": [
+          "Once your request is understood, ask which named appointment to choose, how much time to allow and what the current total includes. Say if you have a firm departure time. Let the salon confirm whether the proposed work fits rather than treating a picture as enough information to estimate the visit.",
+          "Request preparation and aftercare instructions for the exact service the team agrees with you. Raise product questions or previous reactions directly before booking. This article does not assess suitability or promise a treatment result. Review the provider’s current booking and cancellation terms before confirming."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Review Aurora’s booking options"
+      },
+      {
+        "heading": "Send a short brief the team can answer",
+        "paragraphs": [
+          "You can prepare this message: “I would like to discuss a manicure and pedicure on [date]. Hands: [current work]. Feet: [current work]. My main reference is for [specific detail]. I am flexible about [detail]. Which appointment should I choose, and what should I confirm first?” Replace the brackets with your own information and attach only the references relevant to that question.",
+          "Keep the confirmed service, date, time and full address together: Azizi Riviera 40, Shop 10, Meydan, Dubai. Use the existing WhatsApp questions button or booking route to contact Aurora. An enquiry helps clarify the work; wait for the appointment details to be confirmed before travelling."
+        ],
+        "href": "/beautysalon-azizi-riviera/",
+        "label": "Find Aurora in Azizi Riviera"
+      }
+    ],
+    "priorPublicationCheck": {
+      "checkedAt": "2026-10-31T03:14:18.489404+04:00",
+      "main": "153201aea11fb519706f4c9b1c297ccfcb4a4ba1",
+      "cloudflare": "completed/success",
+      "activeActions": 0,
+      "sharedLockVerified": false,
+      "previousCaptainDeployment": "appgdep_6ae52343c30c819192b38373ee183f50",
+      "previousCaptainDeploymentStatus": "succeeded",
+      "previousCaptainPublicCheck": "Article, photograph, overview and homepage confirmed; separate sitemap verification blocked, recorded durably; no active work remains."
+    }
   }
 ]
