@@ -438,9 +438,9 @@
     "description": "Unsure which lash appointment to choose? Compare your style priorities, explain existing extensions and ask Aurora to confirm the service before booking.",
     "language": "en",
     "searchIntent": "Which lash-extension appointment should I enquire about when I do not understand the style names?",
-    "published": false,
+    "published": true,
     "publicationReady": true,
-    "publicationStatus": "source-written",
+    "publicationStatus": "public-verified",
     "datePublished": "2026-11-03T03:02:43.062000+04:00",
     "dateModified": "2026-11-03T03:02:43.062000+04:00",
     "image": "/images/services/lm-curl.webp",
@@ -514,6 +514,11 @@
       "captainStatus": "31 October verification blocked; terminal deployment, no active work; 3 November deferred behind that existing slot"
     },
     "imageWidth": 463,
-    "imageHeight": 377
+    "imageHeight": 377,
+    "publicVerifiedAt": "2026-11-03T03:06:49.968292+04:00",
+    "deploymentCommit": "5198aef4964180096e27c5cd8a38dddd023b4cf4",
+    "deploymentId": "d3b2554c-0148-41be-a078-4a3261e7b181",
+    "publicUrl": "https://aurorasalondubai.com/blog/lash-extension-style-names-meydan-booking-guide/",
+    "verification": "Cloudflare completed/success; real-domain article, H1/canonical/BlogPosting, Dubai date, loaded photo, booking link, overview and sitemap verified. Preview WhatsApp dialog opened with correct phone; no messages sent."
   }
 ]
