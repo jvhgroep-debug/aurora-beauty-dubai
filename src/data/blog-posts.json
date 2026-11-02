@@ -426,5 +426,94 @@
     "deploymentId": "23635576-43cc-41d5-beef-08b300ae9a12",
     "publicUrl": "https://aurorasalondubai.com/blog/manicure-pedicure-meydan-reference-photo-brief/",
     "verification": "Cloudflare success; actual domain article/H1/canonical/photo loaded, booking link, blog overview, homepage and public sitemap verified in browser; no messages sent."
+  },
+  {
+    "website": "https://aurorasalondubai.com",
+    "slotId": "aurorasalondubai.com|2026-11-03|1",
+    "slot": 7,
+    "originalScheduledAt": "2026-11-03T03:00:00+04:00",
+    "slug": "lash-extension-style-names-meydan-booking-guide",
+    "title": "Choosing Lash Extensions in Meydan: Booking Guide | Aurora",
+    "heading": "Not sure which lash extensions to book in Meydan? Start with your style brief",
+    "description": "Unsure which lash appointment to choose? Compare your style priorities, explain existing extensions and ask Aurora to confirm the service before booking.",
+    "language": "en",
+    "searchIntent": "Which lash-extension appointment should I enquire about when I do not understand the style names?",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "source-written",
+    "datePublished": "2026-11-02T23:02:43.062Z",
+    "dateModified": "2026-11-02T23:02:43.062Z",
+    "image": "/images/services/lm-curl.webp",
+    "imageAlt": "Close-up of styled eyelashes from Aurora’s lash-extension service collection",
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776087576875_bdlejfvwg.webp",
+    "imageNote": "Existing Aurora service-gallery photograph; owner permission under Johan’s 30 October 2026 policy. General service illustration, no promised individual result. Provenance internal only.",
+    "intro": "If you do not know which lash-extension name to choose, prepare a short style brief before reserving an appointment: say what is on your lashes now, name the detail you like in one reference photo, and ask Aurora which listed service fits the enquiry. Do not select an infill or a style name simply because it sounds familiar. Aurora lists several lash appointments at Azizi Riviera 40, Shop 10, Meydan; the team should confirm the booking for your request.",
+    "sections": [
+      {
+        "heading": "First decide whether this is a new-set or existing-set enquiry",
+        "paragraphs": [
+          "Start by saying whether you currently wear extensions. If you do, note the date and service name from your last appointment, if known, and whether the work was at Aurora or elsewhere. If you have no extensions, say that clearly. These are different starting points even when you are interested in the same overall appearance.",
+          "Aurora’s menu includes Volume Lash Infill Extensions as well as other extension services. An infill is not a general label for any lash booking. If you have existing work, ask the team which appointment to discuss before choosing a slot; do not assume it can be maintained or changed within the service you first selected."
+        ],
+        "href": "/blog/lash-infill-meydan-existing-extensions-booking/",
+        "label": "Prepare the details of your existing extensions"
+      },
+      {
+        "heading": "Use the menu names as questions, not as a self-assessment",
+        "paragraphs": [
+          "The current service list includes Mega Volume Extension, L/M Curl Extensions and Kim Kardashian (K.K) Style. Those labels give you something specific to ask about, but the names alone do not tell you which appointment is appropriate for you. A photograph or a preferred label cannot settle that decision.",
+          "A useful question is: “I noticed L/M Curl Extensions and K.K Style on your menu. I like this detail in my reference. Which service should I discuss?” Ask the team to explain the difference relevant to your request and whether the service you are considering is the correct booking. Avoid choosing from a name without understanding what the appointment includes."
+        ],
+        "href": "/#services",
+        "label": "Browse Aurora’s listed lash services"
+      },
+      {
+        "heading": "Choose one visual priority and one flexible detail",
+        "paragraphs": [
+          "Look at one reference image and identify the part you want to discuss: the overall fullness, a softer or more pronounced appearance, or the emphasis in a particular area. Use ordinary words if you do not know the terminology. You can also describe what you would prefer to avoid.",
+          "Then add one detail you are flexible about. For example: “I like the overall appearance in this reference, but I would like to discuss a softer version.” This is an enquiry outline, not a claim about an available design or a promised finish. Let Aurora explain what can be discussed for your appointment."
+        ]
+      },
+      {
+        "heading": "Check what the proposed appointment includes",
+        "paragraphs": [
+          "Once the team identifies a service, check its exact booking name. Ask whether any work on existing extensions needs a separate service, additional appointment time or a different total. If you are unsure about a label in the listing, resolve that with the salon before confirming.",
+          "Raise product questions, previous reactions or other relevant concerns directly before booking. Request the preparation and aftercare instructions for the agreed service. This guide does not determine individual suitability, recommend a technique for your eyes or promise how long a result will last."
+        ]
+      },
+      {
+        "heading": "Keep the service decision and your diary together",
+        "paragraphs": [
+          "Give your preferred date and say if you have a firm departure time. Ask how much time to keep free for the appointment, including the discussion at the start. If you also want nails or brows, mention that separately and have the booking arrangements confirmed.",
+          "Review the service, current total, date, start time and provider’s change or cancellation terms on Aurora’s existing booking page. A WhatsApp enquiry helps clarify the choice; wait for the appointment details to be confirmed before arranging your visit."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Review Aurora’s current appointment options"
+      },
+      {
+        "heading": "A short message you can prepare now",
+        "paragraphs": [
+          "Use this checklist for your first enquiry: current extensions or none; previous service and date if relevant; the main detail you like in one reference; the part you are flexible about; preferred date; and your question about which service to book. Keep the message focused on the decision the team needs to help you make.",
+          "You could write: “I would like to discuss lash extensions on [date]. I currently have [extensions/no extensions]. My main preference is [detail]. I am flexible about [detail]. Which listed appointment should I choose, and what should I confirm first?” Use the existing WhatsApp questions button or booking route. Once confirmed, save the appointment details with the full address: Azizi Riviera 40, Shop 10, Meydan, Dubai."
+        ],
+        "href": "/beautysalon-azizi-riviera/",
+        "label": "Find Aurora and plan your arrival"
+      }
+    ],
+    "priorPublicationCheck": {
+      "checkedAt": "2026-11-02T23:02:43.062Z",
+      "main": "02abb79839a4eba1c6f8a428c2ecf03f6e96ebf9",
+      "cloudflare": "completed/success",
+      "deploymentId": "b649c4ca-fc6d-484e-99a1-1213335e57b1",
+      "activeActions": 0,
+      "openPullRequests": 0,
+      "previousCentralRun": "f60dcc13-38d8-8320-a35f-d107201d429b",
+      "previousCentralRunStatus": "completed",
+      "currentRun": "726e8184-300c-8320-a123-1ed78a234148",
+      "captainStatus": "31 October verification blocked; terminal deployment, no active work; 3 November deferred behind that existing slot"
+    },
+    "imageWidth": 463,
+    "imageHeight": 377
   }
 ]
