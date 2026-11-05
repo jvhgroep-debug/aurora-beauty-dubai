@@ -533,9 +533,9 @@
     "description": "Planning a salon visit with a friend in Meydan? List each person’s service, share your preferred timing and have both appointments confirmed by Aurora.",
     "language": "en",
     "searchIntent": "How do two friends ask for salon appointments on the same day without assuming the same services or simultaneous availability?",
-    "published": false,
+    "published": true,
     "publicationReady": true,
-    "publicationStatus": "source-written",
+    "publicationStatus": "public-verified",
     "datePublished": "2026-11-06T03:05:55.015903+04:00",
     "dateModified": "2026-11-06T03:05:55.015903+04:00",
     "image": "/images/services/vip-special.jpg",
@@ -618,6 +618,11 @@
       "src/data/blog-posts.json",
       "https://aurorasalondubai.com/beautysalon-azizi-riviera/",
       "https://www.aurorasalon.info/booking"
-    ]
+    ],
+    "publicVerifiedAt": "2026-11-06T03:09:09.469100+04:00",
+    "deploymentCommit": "4cec77f554ff0c817204012fe3d438403e795a4f",
+    "deploymentId": "090a6b53-e7ef-4a78-a09c-6a913b6f51bc",
+    "publicUrl": "https://aurorasalondubai.com/blog/salon-visit-with-friend-meydan-two-appointments/",
+    "verification": "Cloudflare completed/success; real-domain article, single H1/canonical/BlogPosting actual date, loaded1280px photograph, booking link, blog overview, homepage context and sitemap verified in browser. Existing WhatsApp dialog opened and closed with971503181009; no messages sent."
   }
 ]
