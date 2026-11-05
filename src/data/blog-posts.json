@@ -520,5 +520,104 @@
     "deploymentId": "d3b2554c-0148-41be-a078-4a3261e7b181",
     "publicUrl": "https://aurorasalondubai.com/blog/lash-extension-style-names-meydan-booking-guide/",
     "verification": "Cloudflare completed/success; real-domain article, H1/canonical/BlogPosting, Dubai date, loaded photo, booking link, overview and sitemap verified. Preview WhatsApp dialog opened with correct phone; no messages sent."
+  },
+  {
+    "website": "https://aurorasalondubai.com",
+    "slotId": "aurorasalondubai.com|2026-11-06|1",
+    "slot": 8,
+    "originalScheduledAt": "2026-11-06T03:00:00+04:00",
+    "publishAt": "2026-11-06T03:00:00+04:00",
+    "slug": "salon-visit-with-friend-meydan-two-appointments",
+    "title": "Salon Visit With a Friend in Meydan: Booking Guide | Aurora",
+    "heading": "Visiting Aurora with a friend? Prepare two appointment requests",
+    "description": "Planning a salon visit with a friend in Meydan? List each person’s service, share your preferred timing and have both appointments confirmed by Aurora.",
+    "language": "en",
+    "searchIntent": "How do two friends ask for salon appointments on the same day without assuming the same services or simultaneous availability?",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "source-written",
+    "datePublished": "2026-11-06T03:05:55.015903+04:00",
+    "dateModified": "2026-11-06T03:05:55.015903+04:00",
+    "image": "/images/services/vip-special.jpg",
+    "imageAlt": "Manicure and pedicure service photograph from Aurora’s existing salon gallery",
+    "imageWidth": 1280,
+    "imageHeight": 1279,
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776078663178_pmg35lc4b.jpg",
+    "imageNote": "Existing approved Aurora gallery photograph, visually checked. Service illustration of one client; not a photograph of two friends or proof of simultaneous bookings. Johan30October permission; no visible provenance caption.",
+    "intro": "Prepare a separate service request for each person, then ask Aurora whether the appointments can fit your preferred day and timing. Travelling to the salon together does not automatically mean two people can book the same start time or finish together. Keep each person’s service choice and confirmation clear before planning the rest of your visit to Azizi Riviera 40, Shop 10, Meydan.",
+    "sections": [
+      {
+        "heading": "Start with one short brief per person",
+        "paragraphs": [
+          "Write two separate lines before contacting the salon: person one — service to discuss; person two — service to discuss. If either of you is unsure which appointment to select, label that as a question. Do not choose the same service name just to make a shared outing easier to organise.",
+          "Aurora’s current list includes lash appointments, eyebrow lamination and VIP Facial, while the VIP Special mentions manicure, pedicure and lashes. Use those names to explain what each person wants to discuss. The team should confirm the appropriate booking for the individual request."
+        ],
+        "href": "/#services",
+        "label": "Browse Aurora’s listed services"
+      },
+      {
+        "heading": "Say what “together” means to you",
+        "paragraphs": [
+          "Decide which part of the visit you hope to share. You might prefer to travel together, start near the same time or leave together afterwards. These are different requests. Tell Aurora which preference matters most and whether you would consider different start times.",
+          "Ask the salon what can be arranged for both service choices on your preferred date. Do not infer staffing, spare treatment space or simultaneous availability from a photograph or a service description. A combination of services for one person does not establish that two separate clients can be treated at once."
+        ]
+      },
+      {
+        "heading": "Keep existing work and reference photos separate",
+        "paragraphs": [
+          "For an enquiry involving existing lashes or nail work, each person should describe their own starting point. Note the previous service and date if known, and say when you do not know the product or appointment name. One friend’s booking history does not describe the other’s request.",
+          "If you share reference images, label which person and which detail each image concerns. A clear brief might say: “Person one likes the colour in this nail reference; person two wants to discuss the overall lash appearance in this image.” These are enquiry examples, not promises to reproduce a design."
+        ],
+        "href": "/blog/manicure-pedicure-meydan-reference-photo-brief/",
+        "label": "Prepare a clear nail reference brief"
+      },
+      {
+        "heading": "Give a shared arrival window and individual limits",
+        "paragraphs": [
+          "Offer a preferred day and a realistic window when both of you can attend. If one person has a firm departure time, mention it separately. Ask the team how much time to keep available for each agreed appointment, including any discussion needed at the beginning.",
+          "You can organise your calendars and travel plans yourselves. Aurora must confirm the actual appointment times. Avoid arranging a tightly timed follow-on activity around an assumed finishing time before both appointments have been clarified. No standard duration or shared completion time is promised here."
+        ]
+      },
+      {
+        "heading": "Confirm both bookings, not just the shared outing",
+        "paragraphs": [
+          "For each person, check the service name, date, start time, current total and any preparation instructions. Ask how the two requests should be entered through the existing booking route. Do not assume that one confirmation or a message saying “there will be two of us” reserves a second appointment.",
+          "If one of the service choices changes, ask whether that affects either appointment’s timing. Review the provider’s current change and cancellation terms before confirming. This guide does not add a group package, paired discount or special booking policy."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Review Aurora’s current booking options"
+      },
+      {
+        "heading": "A two-person enquiry you can prepare now",
+        "paragraphs": [
+          "Use this outline: “We would like to discuss appointments on [date]. Person one: [service or question], current work [details]. Person two: [service or question], current work [details]. We can arrive between [times]. Our main preference is [travel together/start near the same time]. What can you confirm for each person?” Replace the brackets with your own information.",
+          "Keep a final checklist with two confirmed service names, two appointment details, any separate preparation instructions and the salon address: Azizi Riviera 40, Shop 10, Meydan, Dubai. Use Aurora’s existing WhatsApp questions button or booking page. Wait for the appointment details to be confirmed before travelling."
+        ],
+        "href": "/beautysalon-azizi-riviera/",
+        "label": "Find Aurora in Azizi Riviera"
+      }
+    ],
+    "priorPublicationCheck": {
+      "checkedAt": "2026-11-06T03:05:55.015903+04:00",
+      "main": "475219f6cb0c0d2c2e02b4fa155d5ee4ee98295a",
+      "lastContentCommit": "5198aef4964180096e27c5cd8a38dddd023b4cf4",
+      "cloudflare": "completed/success (fresh GitHub check-run lookup)",
+      "deploymentId": "d3b2554c-0148-41be-a078-4a3261e7b181",
+      "activeActions": 0,
+      "openPullRequests": 0,
+      "previousCentralRun": "24446aa4-539c-8330-835f-c528db8fca9e",
+      "previousCentralRunStatus": "completed",
+      "currentRun": "c6959f3c-5088-8330-9bf2-34c1aabe1eb4",
+      "captainStatus": "Recovered5November; older slots verified, next7November; no inherited sitemap block",
+      "sharedLockClaimed": false
+    },
+    "sources": [
+      "src/data/services.json",
+      "src/data/site.json",
+      "src/data/blog-posts.json",
+      "https://aurorasalondubai.com/beautysalon-azizi-riviera/",
+      "https://www.aurorasalon.info/booking"
+    ]
   }
 ]
