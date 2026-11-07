@@ -9,6 +9,16 @@ interface Props {
 }
 
 const { services, sectionTitle, intro } = Astro.props;
+const guides: Record<string, { href: string; label: string }> = {
+  'vip-facial': { href: '/blog/vip-facial-meydan-consultation-questions/', label: 'Questions before a VIP Facial' },
+  'lash-lift': { href: '/blog/lash-extension-style-names-meydan-booking-guide/', label: 'Choose your lash appointment' },
+  'volume-lash': { href: '/blog/lash-infill-meydan-existing-extensions-booking/', label: 'Prepare for a lash infill' },
+  'mega-volume': { href: '/blog/lash-extension-style-names-meydan-booking-guide/', label: 'Discuss your lash style' },
+  'vip-special': { href: '/blog/manicure-pedicure-lashes-one-visit-meydan/', label: 'Plan nails and lashes in one visit' },
+  'lm-curl': { href: '/blog/lash-extension-style-names-meydan-booking-guide/', label: 'Discuss your lash style' },
+  'kk-style': { href: '/blog/lash-extension-style-names-meydan-booking-guide/', label: 'Discuss your lash style' },
+  'brow-lamination': { href: '/blog/brow-lamination-meydan-consultation-questions/', label: 'Questions before brow lamination' },
+};
 ---
 
 <section id="services" class="py-16 md:py-24 bg-aurora-white">
@@ -21,7 +31,7 @@ const { services, sectionTitle, intro } = Astro.props;
 
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
       {services.map((service) => (
-        <article class="group relative flex flex-col bg-aurora-cream border border-aurora-sand/60 overflow-hidden transition-shadow hover:shadow-lg">
+        <article id={`treatment-${service.id}`} class="group relative flex flex-col scroll-mt-32 bg-aurora-cream border border-aurora-sand/60 overflow-hidden transition-shadow hover:shadow-lg">
           <div class="aspect-[4/3] bg-aurora-sand/50 relative overflow-hidden">
             <div class="absolute top-4 left-4 z-10 bg-aurora-dark text-white text-xs font-semibold px-3 py-1">
               {service.currency} {service.price}
@@ -41,6 +51,11 @@ const { services, sectionTitle, intro } = Astro.props;
             <p class="text-xs uppercase tracking-widest text-aurora-brown mb-1">{service.tag}</p>
             <h3 class="text-lg font-semibold uppercase tracking-wide text-aurora-dark mb-2">{service.title}</h3>
             <p class="text-sm text-aurora-brown/80 leading-relaxed flex-1">{service.description}</p>
+            {guides[service.id] && (
+              <a href={guides[service.id].href} class="mt-4 text-sm font-semibold underline underline-offset-4">
+                {guides[service.id].label} →
+              </a>
+            )}
           </div>
         </article>
       ))}

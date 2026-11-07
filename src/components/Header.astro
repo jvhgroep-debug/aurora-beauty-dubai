@@ -26,6 +26,7 @@ const homeUrl = isSiteHomepage ? '/' : `/${site.homeBaseSlug}/`;
       <a href={homeUrl} class="text-xs uppercase tracking-widest text-aurora-dark hover:text-aurora-brown transition-colors">Home</a>
       <a href="#about" class="text-xs uppercase tracking-widest text-aurora-dark hover:text-aurora-brown transition-colors">About</a>
       <a href="#services" class="text-xs uppercase tracking-widest text-aurora-dark hover:text-aurora-brown transition-colors">Services</a>
+      <a href="/blog/" class="text-xs uppercase tracking-widest text-aurora-dark hover:text-aurora-brown transition-colors">Journal</a>
       <a href="#testimonials" class="text-xs uppercase tracking-widest text-aurora-dark hover:text-aurora-brown transition-colors">Testimonials</a>
       <a href="#contact" class="text-xs uppercase tracking-widest text-aurora-dark hover:text-aurora-brown transition-colors">Contact</a>
     </nav>
@@ -44,6 +45,12 @@ const homeUrl = isSiteHomepage ? '/' : `/${site.homeBaseSlug}/`;
       </a>
     </div>
   </div>
+  <nav aria-label="Salon quick links" class="flex flex-wrap justify-center gap-x-5 gap-y-2 border-t border-aurora-sand/50 px-4 py-3 text-xs text-aurora-dark md:hidden">
+    <a href={`/${site.homeBaseSlug}/`}>Salon location</a>
+    <a href="#services">Treatments &amp; prices</a>
+    <a href="/blog/">Journal</a>
+    <a href={site.bookingUrl} target="_blank" rel="noopener noreferrer">Book appointment ↗</a>
+  </nav>
   {isSiteHomepage && (
     <div class="bg-aurora-dark py-1.5 text-center">
       <p class="text-xs tracking-widest uppercase text-white/80">

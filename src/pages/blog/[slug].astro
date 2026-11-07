@@ -15,7 +15,20 @@ const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', headl
     {approvedImage && <img src={approvedImage} alt={post.imageAlt} width={post.imageWidth ?? 1500} height={post.imageHeight ?? 1000} class:list={['mb-10 max-w-full object-cover', post.imageWidth ? 'h-auto' : 'aspect-[3/2] w-full']} fetchpriority="high" />}
     <p class="mb-10 text-lg leading-relaxed">{post.intro}</p>
     {post.sections.map(section => <section class="mb-10"><h2 class="mb-4 text-xl font-semibold md:text-2xl">{section.heading}</h2>{section.paragraphs.map(paragraph => <p class="mb-4 leading-relaxed">{paragraph}</p>)}{'href' in section && <a href={section.href} class="font-semibold underline underline-offset-4">{section.label} →</a>}</section>)}
-    <aside class="border border-aurora-sand bg-aurora-white p-7"><h2 class="mb-4 text-2xl font-semibold">Ready to plan your visit?</h2><p class="mb-6 leading-relaxed">Check your preferred service and appointment details. Our WhatsApp button also lets you send the team your questions.</p><a href={site.bookingUrl} class="btn-primary" target="_blank" rel="noopener noreferrer">Check appointments</a></aside>
+    <aside class="border border-aurora-sand bg-aurora-white p-7">
+      <h2 class="mb-4 text-2xl font-semibold">Choose a treatment at our Azizi Riviera salon</h2>
+      <p class="mb-5 leading-relaxed">All appointments take place at Azizi Riviera 40, Shop 10, Meydan, Dubai. Compare the listed treatments and AED prices, then confirm the service and time that suit your visit.</p>
+      <ul class="mb-6 grid gap-3 text-sm sm:grid-cols-2">
+        <li><a href="/beautysalon-azizi-riviera/#treatment-vip-facial" class="underline underline-offset-4">VIP Facial: treatment and price</a></li>
+        <li><a href="/beautysalon-azizi-riviera/#treatment-lash-lift" class="underline underline-offset-4">Classic lash extensions: full set</a></li>
+        <li><a href="/beautysalon-azizi-riviera/#treatment-volume-lash" class="underline underline-offset-4">Volume lash infill</a></li>
+        <li><a href="/beautysalon-azizi-riviera/#treatment-brow-lamination" class="underline underline-offset-4">Eyebrow lamination</a></li>
+        <li><a href="/beautysalon-azizi-riviera/#treatment-vip-special" class="underline underline-offset-4">Manicure, pedicure and lashes package</a></li>
+        <li><a href="/beautysalon-azizi-riviera/#visit-salon-title" class="underline underline-offset-4">Salon address and directions in Meydan</a></li>
+      </ul>
+      <p class="mb-6 text-sm leading-relaxed">For help choosing a service, use the WhatsApp questions button or call <a href="tel:+971503181009" class="underline underline-offset-4">{site.phone}</a>. Appointment availability is confirmed through the booking system or by the salon.</p>
+      <a href={site.bookingUrl} class="btn-primary" target="_blank" rel="noopener noreferrer">Check appointments</a>
+    </aside>
   </article>
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 </BlogLayout>
