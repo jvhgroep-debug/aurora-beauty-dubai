@@ -637,9 +637,9 @@
     "description": "Changing a salon appointment in Meydan? Find your confirmation, explain the change and check the final service, date and time with Aurora before travelling.",
     "language": "en",
     "searchIntent": "How do I request a change to an existing Aurora appointment without confusing the original booking with a new enquiry?",
-    "published": false,
+    "published": true,
     "publicationReady": true,
-    "publicationStatus": "source-written",
+    "publicationStatus": "public-verified",
     "datePublished": "2026-11-09T03:05:37.916469+04:00",
     "dateModified": "2026-11-09T03:05:37.916469+04:00",
     "image": "/images/services/vip-special.jpg",
@@ -713,6 +713,11 @@
       "previousCentralRun": "9November Tropicana/Super Pasta complete and public-verified",
       "captainStatus": "Latest7November slot public-verified; next10November; no active source/deployment",
       "sharedLockClaimed": false
-    }
+    },
+    "publicVerifiedAt": "2026-11-08T23:07:56.257Z",
+    "deploymentCommit": "2b49ec6247703888c25b130c7b2d928dcf5308df",
+    "deploymentId": "6ac86f51-4489-4676-aa5d-95783699c1a8",
+    "publicUrl": "https://aurorasalondubai.com/blog/change-salon-appointment-meydan-confirmation-checklist/",
+    "verification": "Cloudflare completed/success. Real-domain article single H1/canonical/BlogPosting actual date, loaded photograph/OG, booking URL, WhatsApp questions dialog and971503181009, overview, homepage context and sitemap-0.xml verified in browser. No messages or bookings sent."
   }
 ]
