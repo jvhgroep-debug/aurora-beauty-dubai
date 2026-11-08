@@ -624,5 +624,95 @@
     "deploymentId": "090a6b53-e7ef-4a78-a09c-6a913b6f51bc",
     "publicUrl": "https://aurorasalondubai.com/blog/salon-visit-with-friend-meydan-two-appointments/",
     "verification": "Cloudflare completed/success; real-domain article, single H1/canonical/BlogPosting actual date, loaded1280px photograph, booking link, blog overview, homepage context and sitemap verified in browser. Existing WhatsApp dialog opened and closed with971503181009; no messages sent."
+  },
+  {
+    "website": "https://aurorasalondubai.com",
+    "slotId": "aurorasalondubai.com|2026-11-09|1",
+    "slot": 9,
+    "originalScheduledAt": "2026-11-09T03:00:00+04:00",
+    "publishAt": "2026-11-09T03:00:00+04:00",
+    "slug": "change-salon-appointment-meydan-confirmation-checklist",
+    "title": "Changing a Salon Appointment in Meydan: Checklist | Aurora",
+    "heading": "Need to change your Aurora appointment? Keep the original booking and request clear",
+    "description": "Changing a salon appointment in Meydan? Find your confirmation, explain the change and check the final service, date and time with Aurora before travelling.",
+    "language": "en",
+    "searchIntent": "How do I request a change to an existing Aurora appointment without confusing the original booking with a new enquiry?",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "source-written",
+    "datePublished": "2026-11-09T03:05:37.916469+04:00",
+    "dateModified": "2026-11-09T03:05:37.916469+04:00",
+    "image": "/images/services/vip-special.jpg",
+    "imageAlt": "Manicure and pedicure service photograph from Aurora’s existing salon gallery",
+    "imageWidth": 1280,
+    "imageHeight": 1279,
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776078663178_pmg35lc4b.jpg",
+    "imageNote": "Existing owned salon gallery photograph; Johan30October permission; reused from verified6November article. Illustrates a service, not a booking change or guaranteed outcome. No visible origin caption.",
+    "intro": "Start with your existing confirmation, state exactly what you want to change, and wait for the revised appointment details to be confirmed. Sending a new preferred time does not by itself establish that the original booking has changed. For an Aurora visit at Azizi Riviera 40, Shop 10, Meydan, keep one clear record of the agreed service, date and time before you travel.",
+    "sections": [
+      {
+        "heading": "Find the booking you are asking about",
+        "paragraphs": [
+          "Open your original confirmation and note the name used for the booking, the exact service, date and start time. Keep any booking reference with those details. If you only sent a question and never received confirmation, describe it as an enquiry rather than an existing appointment.",
+          "Check the confirmation and the booking provider’s current instructions for changes or cancellation. Follow the route shown for your booking. If the instructions are unclear, use Aurora’s existing contact route to ask how to proceed; this guide does not establish a notice period, fee or entitlement to a change."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Open Aurora’s existing booking route"
+      },
+      {
+        "heading": "Separate a timing change from a service change",
+        "paragraphs": [
+          "Write one sentence naming the change: a different date, a different start time, or a different service. If more than one detail needs changing, list each one. “Could I move my appointment?” leaves the team without the information needed to identify your request.",
+          "For a timing request, offer a preferred date and a window you can attend. Say whether the service remains the same. For a service request, give both the currently booked name and the service you want to discuss. A new service choice may need different arrangements; do not assume it fits the original slot."
+        ],
+        "href": "/beautysalon-azizi-riviera/#services",
+        "label": "Check Aurora’s listed service names"
+      },
+      {
+        "heading": "Keep your original details beside the requested details",
+        "paragraphs": [
+          "Prepare a simple before-and-after note. Original: [service], [date], [time]. Requested: [service], [date or time window]. Add a short explanation only where it helps clarify the change. You can prepare this information yourself before contacting the salon.",
+          "For example: “My confirmed appointment is [service] on [date] at [time], under [booking name]. I would like to request [change]. My available window is [details]. Please let me know which arrangements and booking steps need to be confirmed.” This is a message outline, not a statement of Aurora’s change policy."
+        ]
+      },
+      {
+        "heading": "Avoid creating an unclear second booking",
+        "paragraphs": [
+          "If you see another suitable time while checking the booking page, first read the instructions that apply to changing your existing reservation. Do not assume selecting a new appointment also removes or updates the original one. If you are unsure, ask the salon which steps to take.",
+          "Keep related questions in the same conversation where practical, and quote the original booking details when using another channel. If a friend is joining you, identify whose appointment needs changing. A change requested for one person should not be assumed to update both bookings."
+        ],
+        "href": "/blog/salon-visit-with-friend-meydan-two-appointments/",
+        "label": "Keep two people’s appointments separate"
+      },
+      {
+        "heading": "Check the final confirmation before travelling",
+        "paragraphs": [
+          "Compare the revised details with your request: booking name, exact service, date and start time. Review the current total and any applicable terms shown by the provider. If the service changed, request the preparation instructions for that agreed appointment rather than reusing instructions from a different treatment.",
+          "Resolve any mismatch before planning your journey. Keep the final confirmation and the full address together: Azizi Riviera 40, Shop 10, Meydan, Dubai. You can organise your diary and travel; Aurora or the booking provider must confirm the appointment arrangements. If you have not received a clear answer, do not treat your requested change as completed."
+        ],
+        "href": "/beautysalon-azizi-riviera/",
+        "label": "Find the salon and its contact details"
+      }
+    ],
+    "sources": [
+      "src/data/blog-posts.json",
+      "src/data/site.json",
+      "src/data/services.json",
+      "https://aurorasalondubai.com/beautysalon-azizi-riviera/",
+      "https://www.aurorasalon.info/booking"
+    ],
+    "overlapReview": "All8 existing blogs and generated service/location source compared; live blog overview and home salon page read9November. Existing guides cover choosing/preparing services and two-person bookings. This guide addresses changing an already confirmed appointment, with a before/after record and final-confirmation check. No invented change policy, fee, deadline or available time.",
+    "priorPublicationCheck": {
+      "checkedAt": "2026-11-09T03:05:37.916469+04:00",
+      "main": "a9977b3c92a4150f4943b48f122de1acb52e9658",
+      "cloudflare": "6November content completed/success",
+      "deploymentId": "090a6b53-e7ef-4a78-a09c-6a913b6f51bc",
+      "activeActions": 0,
+      "openPullRequests": 0,
+      "previousCentralRun": "9November Tropicana/Super Pasta complete and public-verified",
+      "captainStatus": "Latest7November slot public-verified; next10November; no active source/deployment",
+      "sharedLockClaimed": false
+    }
   }
 ]

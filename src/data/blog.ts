@@ -1,8 +1,9 @@
 import posts from './blog-posts.json';
 
-// Keep future or unapproved posts out of generated routes and indexes.
-export const publishedBlogPosts = posts.filter((post) =>
-  (post.published || ('publicationReady' in post && post.publicationReady === true)) &&
-  new Date(post.originalScheduledAt).getTime() <= Date.now()
-);
-
+// One date/status selection shared by articles, overview and sitemap routes.
+export const publishedBlogPosts = posts.filter((post) => {
+  const record = post as typeof post & { publishAt?: string; publicationStatus?: string };
+  if (['cancelled-by-schedule-change', 'skipped-quality'].includes(record.publicationStatus ?? '')) return false;
+  const ready = post.published || ('publicationReady' in post && post.publicationReady === true);
+  return ready && [post.originalScheduledAt, record.publishAt ?? post.originalScheduledAt, post.datePublished].every(value => Number.isFinite(Date.parse(value)) && Date.parse(value) <= Date.now());
+});
