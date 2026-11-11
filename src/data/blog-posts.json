@@ -732,9 +732,9 @@
     "description": "Booking Aurora from abroad? Keep your arrival date, Dubai appointment time and calendar display separate, then check the final confirmation before travelling.",
     "language": "en",
     "searchIntent": "How do I confirm the right local appointment date and time when booking Aurora before travelling to Dubai?",
-    "published": false,
+    "published": true,
     "publicationReady": true,
-    "publicationStatus": "source-written",
+    "publicationStatus": "public-verified",
     "datePublished": "2026-11-12T03:07:55.063879+04:00",
     "dateModified": "2026-11-12T03:07:55.063879+04:00",
     "image": "/images/services/vip-special.jpg",
@@ -807,6 +807,11 @@
       "currentRun": "e9d770c1-6438-832e-a9d7-d00f4aecd405",
       "captain": "12Nov skipped-quality durably registered; no publication pending",
       "checkedAt": "2026-11-12T03:07:55.063879+04:00"
-    }
+    },
+    "publicVerifiedAt": "2026-11-11T23:10:10.000382+00:00",
+    "deploymentCommit": "6d321f88a58416d560c0343f3bc390174567b5a3",
+    "deploymentId": "1514f182-bba9-411d-88f4-33f6789d3205",
+    "publicUrl": "https://aurorasalondubai.com/blog/booking-aurora-from-abroad-dubai-time-date/",
+    "verification": "Cloudflare completed/success; real-domain article single H1/canonical/BlogPosting actual date/loaded1280px approved photo/OG/no caption, booking link, WhatsApp questions dialog971503181009, overview/home context and sitemap-0.xml verified in browser. No requests or messages sent."
   }
 ]
