@@ -719,5 +719,94 @@
     "deploymentId": "6ac86f51-4489-4676-aa5d-95783699c1a8",
     "publicUrl": "https://aurorasalondubai.com/blog/change-salon-appointment-meydan-confirmation-checklist/",
     "verification": "Cloudflare completed/success. Real-domain article single H1/canonical/BlogPosting actual date, loaded photograph/OG, booking URL, WhatsApp questions dialog and971503181009, overview, homepage context and sitemap-0.xml verified in browser. No messages or bookings sent."
+  },
+  {
+    "website": "https://aurorasalondubai.com",
+    "slotId": "aurorasalondubai.com|2026-11-12|1",
+    "slot": 10,
+    "originalScheduledAt": "2026-11-12T03:00:00+04:00",
+    "publishAt": "2026-11-12T03:00:00+04:00",
+    "slug": "booking-aurora-from-abroad-dubai-time-date",
+    "title": "Booking Aurora From Abroad: Check Dubai Time | Aurora",
+    "heading": "Booking Aurora before your Dubai trip? Confirm the local date and time",
+    "description": "Booking Aurora from abroad? Keep your arrival date, Dubai appointment time and calendar display separate, then check the final confirmation before travelling.",
+    "language": "en",
+    "searchIntent": "How do I confirm the right local appointment date and time when booking Aurora before travelling to Dubai?",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "source-written",
+    "datePublished": "2026-11-12T03:07:55.063879+04:00",
+    "dateModified": "2026-11-12T03:07:55.063879+04:00",
+    "image": "/images/services/vip-special.jpg",
+    "imageAlt": "Manicure and pedicure service photograph from Aurora’s existing salon gallery",
+    "imageWidth": 1280,
+    "imageHeight": 1279,
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776078663178_pmg35lc4b.jpg",
+    "imageNote": "Existing permitted salon gallery photograph, Johan30October permission. Illustrates salon services, not a traveller or promised result; no visible provenance caption.",
+    "intro": "Use the date and time you intend to be at the salon in Dubai, and have those details confirmed explicitly. Keep your flight departure date, arrival date and appointment as separate entries. A time shown in your phone’s home time zone can look different from the local appointment you discussed with Aurora at Azizi Riviera 40, Shop 10, Meydan.",
+    "sections": [
+      {
+        "heading": "Write the appointment in Dubai time",
+        "paragraphs": [
+          "The UAE is four hours ahead of GMT, as the UAE Government’s fact sheet explains. When you contact Aurora from another country, include “Dubai time” beside your preferred appointment time. Use a full date with the month written out, rather than a number such as 12/11 that can be read in different ways.",
+          "A clear request might read: “I would like to discuss [service] on [day, date and month] at [time] Dubai time.” This is an enquiry format, not a statement that the time is available. Ask the salon to confirm the exact local date and start time for the chosen service."
+        ],
+        "href": "https://u.ae/en/about-the-uae/fact-sheet",
+        "label": "Check the UAE Government’s time information"
+      },
+      {
+        "heading": "Check the arrival date before choosing your salon day",
+        "paragraphs": [
+          "Look at the arrival date on your own travel itinerary. A journey that begins on one date may reach Dubai on another. Do not copy the departure date into a salon enquiry unless that is actually the day you want to attend in Dubai.",
+          "Keep the appointment separate from the flight arrival. You still need to plan your own arrival formalities, onward journey and other commitments; this guide does not estimate those times. If your plans are uncertain, explain that when asking about an appointment rather than presenting a flight landing time as your salon arrival time."
+        ]
+      },
+      {
+        "heading": "Read the time-zone label on the booking screen",
+        "paragraphs": [
+          "Open Aurora’s existing booking page and check any date or time-zone information displayed with the appointment. Do not assume that a number shown on screen is in your home time zone, or that the system has converted it. If the screen or confirmation is unclear, ask which local salon time it represents before confirming.",
+          "Review the named service and current total with the date and time. Choosing a service is a separate decision from converting a time; a facial, lash appointment and manicure enquiry should not be treated as interchangeable bookings."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Review Aurora’s existing booking page"
+      },
+      {
+        "heading": "Keep one local-time note beside your calendar entry",
+        "paragraphs": [
+          "Once you have a confirmed appointment, save a plain-language note: salon name, service, full Dubai date, Dubai start time and address. When adding it to your calendar, choose the appropriate time zone if your calendar offers that setting. Compare the event details with the confirmation rather than checking only the time shown in a weekly calendar view.",
+          "If your calendar display changes after travel, use the saved confirmation and its local date/time as your reference. Ask Aurora to clarify an actual mismatch; do not create a second appointment just because two displays look different. If the agreed appointment itself needs changing, follow the change instructions for that booking."
+        ],
+        "href": "/blog/change-salon-appointment-meydan-confirmation-checklist/",
+        "label": "Request a change to an existing appointment clearly"
+      },
+      {
+        "heading": "Your before-travel check",
+        "paragraphs": [
+          "Keep these five details together: your Dubai arrival date; the confirmed salon date with the month written out; the start time identified as Dubai time; the exact service; and Azizi Riviera 40, Shop 10, Meydan, Dubai. Check the calendar entry against that note before leaving for the salon.",
+          "You can check your itinerary, organise your diary and prepare the date/time question yourself. Aurora or the booking provider confirms the actual appointment. Use the existing WhatsApp questions button if a local time is unclear, and wait for a clear confirmation before treating a requested slot as booked."
+        ],
+        "href": "/beautysalon-azizi-riviera/",
+        "label": "Find Aurora’s salon and contact routes"
+      }
+    ],
+    "sources": [
+      "src/data/blog-posts.json",
+      "src/data/site.json",
+      "src/data/services.json",
+      "https://aurorasalondubai.com/beautysalon-azizi-riviera/",
+      "https://aurorasalondubai.com/blog/",
+      "https://u.ae/en/about-the-uae/fact-sheet"
+    ],
+    "overlapReview": "Compared all9 full blog records plus service/location source and live overview/salon page. Existing booking and change guides do not explain international travel dates, explicit Dubai-time confirmation or time-zone-dependent calendar displays. No booking software conversion behaviour, travel duration or salon availability assumed.",
+    "priorPublicationCheck": {
+      "main": "3bdb5bb9f4ee172e40b77a4b7151184bebaffdd2",
+      "cloudflare": "6ac86f51-4489-4676-aa5d-95783699c1a8 completed/success fresh lookup",
+      "activeActions": 0,
+      "previousCentralRun": "2ec27e77-4b94-832e-a844-65ad08de9873 completed",
+      "currentRun": "e9d770c1-6438-832e-a9d7-d00f4aecd405",
+      "captain": "12Nov skipped-quality durably registered; no publication pending",
+      "checkedAt": "2026-11-12T03:07:55.063879+04:00"
+    }
   }
 ]
