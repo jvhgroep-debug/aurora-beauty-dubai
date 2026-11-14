@@ -813,5 +813,92 @@
     "deploymentId": "1514f182-bba9-411d-88f4-33f6789d3205",
     "publicUrl": "https://aurorasalondubai.com/blog/booking-aurora-from-abroad-dubai-time-date/",
     "verification": "Cloudflare completed/success; real-domain article single H1/canonical/BlogPosting actual date/loaded1280px approved photo/OG/no caption, booking link, WhatsApp questions dialog971503181009, overview/home context and sitemap-0.xml verified in browser. No requests or messages sent."
+  },
+  {
+    "website": "https://aurorasalondubai.com",
+    "slotId": "aurorasalondubai.com|2026-11-15|1",
+    "slot": 11,
+    "originalScheduledAt": "2026-11-15T03:00:00+04:00",
+    "publishAt": "2026-11-15T03:00:00+04:00",
+    "slug": "book-aurora-appointment-for-someone-else",
+    "title": "Booking Aurora for Someone Else: Details to Confirm | Aurora",
+    "heading": "Booking an Aurora appointment for someone else? Keep the guest and organiser clear",
+    "description": "Arranging an Aurora salon visit for another adult? Confirm the guest’s service choice, booking name, contact details and final appointment before they travel.",
+    "language": "en",
+    "searchIntent": "How do I arrange one Aurora salon appointment for another adult when I am not attending?",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "source-written",
+    "datePublished": "2026-11-15T03:01:28.645282+04:00",
+    "dateModified": "2026-11-15T03:01:28.645293+04:00",
+    "image": "/images/services/vip-special.jpg",
+    "imageAlt": "Manicure and pedicure service photograph from Aurora’s existing salon gallery",
+    "imageWidth": 1280,
+    "imageHeight": 1279,
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776078663178_pmg35lc4b.jpg",
+    "imageNote": "Existing permitted salon gallery photograph, Johan30October permission. Illustrates salon services, not a traveller or promised result; no visible provenance caption.",
+    "intro": "Tell Aurora that you are arranging the visit for another adult and will not be the person receiving the service. Agree the intended service and date with that person first, then ask the salon how to record the guest’s name and the contact for the booking. Share the final confirmation with the guest; your own enquiry or calendar note is not their appointment confirmation.",
+    "sections": [
+      {
+        "heading": "Check the guest’s choice before selecting a treatment",
+        "paragraphs": [
+          "Start with what the person actually wants to discuss, rather than choosing a treatment from your own preferences. Aurora’s service overview includes VIP facials, lash extensions, eyebrow lamination and a manicure, pedicure and lashes package. Ask the guest which named appointment they are interested in and whether they have a question the salon should answer first.",
+          "If they are unsure of the service, keep the request as an enquiry. Let the guest discuss their preferences and any service-specific concerns directly with Aurora. A photograph you like or your own previous booking does not establish the right appointment for somebody else."
+        ],
+        "href": "/beautysalon-azizi-riviera/",
+        "label": "Review the existing treatment list together"
+      },
+      {
+        "heading": "Separate the person attending from the person arranging",
+        "paragraphs": [
+          "Say at the beginning: “I am arranging an appointment for [guest] and will not be attending.” Give your own name as the organiser and ask how the guest’s name should appear in the booking. If a screen asks for contact details without making that distinction clear, ask the salon before completing it.",
+          "Agree with the guest which contact details you may share and which number can be reached about the appointment. Ask Aurora where confirmations and preparation instructions will be sent. Do not assume that a message received in your account will also reach the person who is coming to the salon."
+        ]
+      },
+      {
+        "heading": "Ask about practical arrangements without assuming a gift policy",
+        "paragraphs": [
+          "If you intend to cover the cost, ask Aurora how that can be arranged and what the guest needs to know. Check the current service total and any terms shown through the existing booking route. This guide does not establish a gift voucher, transferable booking, prepayment arrangement or special rate.",
+          "Keep the service decision separate from the payment question. Have any unresolved detail answered before telling the guest that the visit has been arranged. If the appointment depends on a particular arrangement, explain that clearly to the salon rather than treating it as already accepted."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Use Aurora’s existing booking page"
+      },
+      {
+        "heading": "Pass on the final appointment, not the first request",
+        "paragraphs": [
+          "Once confirmed, give the guest one clear note containing their booking name, exact service, date, Dubai start time, salon address and any preparation instructions provided for that appointment. Ask them to read it back against their own diary. Keep the confirmation available to them for arrival.",
+          "The address is Azizi Riviera 40, Shop 10, Meydan, Dubai. Let the guest plan their own journey and raise any arrival question with the salon. If plans change, agree who will contact Aurora and identify the original appointment; do not create another booking merely to correct an unclear name or contact detail."
+        ],
+        "href": "/blog/change-salon-appointment-meydan-confirmation-checklist/",
+        "label": "Keep a change request tied to the original appointment"
+      },
+      {
+        "heading": "A short request you can prepare",
+        "paragraphs": [
+          "“I would like to arrange one appointment for [guest], who agrees to the enquiry. I am the organiser and will not attend. They would like to discuss [service] on [date/time in Dubai]. Which name and contact should we use, where will the confirmation go, and what must the guest confirm personally?”",
+          "Use the existing WhatsApp questions button or booking page. You can organise the details and pass on the confirmation; Aurora confirms the appointment and any requested arrangement. Wait for that response before telling the guest to travel."
+        ]
+      }
+    ],
+    "sources": [
+      "src/data/site.json",
+      "src/data/services.json",
+      "src/components/WhatsAppBooking.astro",
+      "src/data/blog-posts.json",
+      "https://aurorasalondubai.com/beautysalon-azizi-riviera/"
+    ],
+    "overlapReview": "All10blogrecords and service/location/booking/contact sources reviewed. Friend guide concerns two people attending; this is one guest with a non-attending organiser, booking identity/contact and confirmation handover. No gift-voucher, payment/transfer policy or treatment suitability assumed.",
+    "priorPublicationCheck": {
+      "main": "02b7423698dab6bfbac7861522ae0979a53a15aa",
+      "previousDeployment": "1514f182-bba9-411d-88f4-33f6789d3205 completed/success fresh check",
+      "actions": 0,
+      "openPRs": 0,
+      "ownRun": "34858e49-0f90-832a-886f-6fa0df87b3fe",
+      "previousRun": "completed",
+      "sharedLockClaimed": false
+    },
+    "publicUrl": "https://aurorasalondubai.com/blog/book-aurora-appointment-for-someone-else/"
   }
 ]
