@@ -826,9 +826,9 @@
     "description": "Arranging an Aurora salon visit for another adult? Confirm the guest’s service choice, booking name, contact details and final appointment before they travel.",
     "language": "en",
     "searchIntent": "How do I arrange one Aurora salon appointment for another adult when I am not attending?",
-    "published": false,
+    "published": true,
     "publicationReady": true,
-    "publicationStatus": "source-written",
+    "publicationStatus": "public-verified",
     "datePublished": "2026-11-15T03:01:28.645282+04:00",
     "dateModified": "2026-11-15T03:01:28.645293+04:00",
     "image": "/images/services/vip-special.jpg",
@@ -899,6 +899,20 @@
       "previousRun": "completed",
       "sharedLockClaimed": false
     },
-    "publicUrl": "https://aurorasalondubai.com/blog/book-aurora-appointment-for-someone-else/"
+    "publicUrl": "https://aurorasalondubai.com/blog/book-aurora-appointment-for-someone-else/",
+    "publicVerifiedAt": "2026-11-14T23:05:16Z",
+    "deploymentCommit": "7108f47c48c81c752e381a53e44a9967a6e01dec",
+    "publicDeploymentId": "fea81e61-1cac-4df3-ad79-4a796f5cc8b6",
+    "publicVerification": {
+      "checkedAt": "2026-11-14T23:05:16Z",
+      "production": "Cloudflare Pages completed/success",
+      "article": "https://aurorasalondubai.com/blog/book-aurora-appointment-for-someone-else/",
+      "photo": "1280 px loaded on actual canonical domain",
+      "overview": "11 articles; new link present",
+      "sitemap": "sitemap-0.xml exact canonical URL present",
+      "home": "Existing Journal navigation and context links present",
+      "seo": "one H1, canonical, BlogPosting actual date, photo/OG and booking URL checked",
+      "whatsapp": "existing questions dialog opened/closed, +971503181009 retained, no enquiry sent"
+    }
   }
 ]
