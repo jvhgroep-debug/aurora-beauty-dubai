@@ -914,5 +914,92 @@
       "seo": "one H1, canonical, BlogPosting actual date, photo/OG and booking URL checked",
       "whatsapp": "existing questions dialog opened/closed, +971503181009 retained, no enquiry sent"
     }
+  },
+  {
+    "website": "https://aurorasalondubai.com",
+    "image": "/images/services/vip-special.jpg",
+    "imageAlt": "Manicure and pedicure service photograph from Aurora’s existing salon gallery",
+    "imageWidth": 1280,
+    "imageHeight": 1279,
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776078663178_pmg35lc4b.jpg",
+    "slotId": "aurorasalondubai.com|2026-11-18|1",
+    "slot": 12,
+    "originalScheduledAt": "2026-11-18T03:00:00+04:00",
+    "publishAt": "2026-11-18T03:00:00+04:00",
+    "slug": "aurora-salon-step-free-access-questions-before-booking",
+    "title": "Need Step-Free Access? Ask Aurora Before Booking | Aurora",
+    "heading": "Need a route without steps? What to ask Aurora before booking",
+    "description": "Planning an Aurora salon visit with access requirements? Check the entrance route, space and appointment setup with the team before booking or travelling.",
+    "language": "en",
+    "searchIntent": "What should I confirm about the route and appointment setup before booking Aurora if I cannot use steps?",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "source-written",
+    "datePublished": "2026-11-18T03:06:22.020523+04:00",
+    "dateModified": "2026-11-18T03:06:22.020523+04:00",
+    "imageNote": "Existing permitted VIP Special salon service photograph, Johan30October. Illustrates offered nail services, not access features, a disabled guest or an accessible treatment setup; no visible provenance caption.",
+    "intro": "Contact Aurora before reserving an appointment if you need a route without steps or have another specific access requirement. Ask about the whole route from your arrival point to the place where the service takes place. A map pin, a booking time or a general description of a salon as easy to reach does not establish that the route works for you. Aurora is at Azizi Riviera 40, Shop 10, Meydan, Dubai.",
+    "sections": [
+      {
+        "heading": "Describe the practical requirement first",
+        "paragraphs": [
+          "Tell the team what you need to be able to do: for example, reach the appointment without using stairs, move through an entrance with a mobility aid, or avoid standing while waiting. A precise requirement gives the salon something concrete to check. You can explain that requirement without sending a diagnosis or unrelated medical details.",
+          "Name the service you want to discuss as well. Aurora lists VIP Facial, lash appointments, Eyebrow Lamination and the VIP Special with manicure, pedicure and lashes. Reaching the front door and being able to use the setup for your chosen service are separate questions."
+        ],
+        "href": "/beautysalon-azizi-riviera/",
+        "label": "Find the salon and its listed treatments"
+      },
+      {
+        "heading": "Check the route from arrival to the appointment",
+        "paragraphs": [
+          "Give the full destination when asking for directions: Building 40, Shop 10, Azizi Riviera. Ask which entrance to use and whether there are any steps, raised thresholds or other changes in level between the arrival point and the service area. If an alternative route is suggested, have the team explain where it starts and whether you can use it at your appointment time.",
+          "If you use a wheelchair or another mobility aid, ask whether the doorway and route have enough clear space for it. Where a measurement matters, request the measurement rather than relying on words such as wide or nearby. Confirm any lift or ramp mentioned in the answer; this guide does not establish that either is present."
+        ]
+      },
+      {
+        "heading": "Ask about the setup for the service you mean",
+        "paragraphs": [
+          "Ask whether your chosen appointment uses a particular chair or treatment bed, and what you would need to do to use it. Explain any practical requirement that affects that setup. If you need to remain in your own chair, ask whether the specific service can be discussed on that basis before selecting a time.",
+          "Do not assume that staff can provide lifting assistance, that equipment can be moved, or that a companion can stay beside you throughout. Ask about any arrangement you depend on and wait for a specific answer. A confirmed route into the salon does not by itself answer these appointment questions."
+        ]
+      },
+      {
+        "heading": "Keep arrival arrangements separate from a parking assumption",
+        "paragraphs": [
+          "If you are arriving by car or taxi, ask where to be dropped off and how to get from that point to the correct entrance. Check the return pickup point too. A nearby parking area is not enough information if the remaining route has an obstacle you cannot use.",
+          "If you need a companion, somewhere to wait or access to a toilet during the visit, raise that specific question before travelling. These are things to confirm for your visit, not facilities promised by this article. Ask the team to clarify an incomplete answer before making plans that depend on it."
+        ]
+      },
+      {
+        "heading": "Use a short access enquiry before choosing a slot",
+        "paragraphs": [
+          "“I would like to discuss [named service] at Azizi Riviera 40, Shop 10. I need [specific practical requirement]. Which entrance should I use, are there any steps or thresholds on the route to the service area, and what setup does this appointment require? I also need to confirm [one other essential arrangement].”",
+          "Use Aurora’s existing WhatsApp questions button or call the salon. Keep the answer with your appointment details, then use the existing booking route once the arrangements you need are clear. If a required detail is still unknown, resolve it before reserving or travelling. You can prepare your requirements and questions; Aurora must confirm the actual route and appointment arrangements."
+        ],
+        "href": "https://www.aurorasalon.info/booking",
+        "label": "Open Aurora’s existing booking page"
+      }
+    ],
+    "sources": [
+      "src/data/site.json",
+      "src/data/services.json",
+      "src/data/blog-posts.json",
+      "src/data/locaties.json",
+      "src/data/service-pages.json",
+      "src/components/WhatsAppBooking.astro",
+      "https://aurorasalondubai.com/beautysalon-azizi-riviera/",
+      "https://aurorasalondubai.com/blog/"
+    ],
+    "overlapReview": "All11 full blog records, service/location source and live overview reviewed. First-visit/friend/booking guides mention general arrival; no guide covers a required step-free route through the entrance to the specific treatment setup. Existing generic accessible/easy-to-reach marketing is not treated as mobility-access confirmation. No ramp/lift/doorway/parking/assistance/toilet facility or clinical suitability asserted.",
+    "priorPublicationCheck": {
+      "main": "408b6b629be9df4472fa3336f6cd125f6d57f66c",
+      "previousDeployment": "fea81e61-1cac-4df3-ad79-4a796f5cc8b6 completed/success fresh lookup",
+      "actions": 0,
+      "openPRs": 0,
+      "ownRun": "5d059590-185c-8326-bd02-547dd0af2f25",
+      "previousRun": "f858606a-8b50-8326-bf93-6f994856c417 completed; Super Pasta slot16 skipped-quality registered",
+      "sharedLockClaimed": false
+    }
   }
 ]
