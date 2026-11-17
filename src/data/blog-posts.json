@@ -933,9 +933,9 @@
     "description": "Planning an Aurora salon visit with access requirements? Check the entrance route, space and appointment setup with the team before booking or travelling.",
     "language": "en",
     "searchIntent": "What should I confirm about the route and appointment setup before booking Aurora if I cannot use steps?",
-    "published": false,
+    "published": true,
     "publicationReady": true,
-    "publicationStatus": "source-written",
+    "publicationStatus": "public-verified",
     "datePublished": "2026-11-18T03:06:22.020523+04:00",
     "dateModified": "2026-11-18T03:06:22.020523+04:00",
     "imageNote": "Existing permitted VIP Special salon service photograph, Johan30October. Illustrates offered nail services, not access features, a disabled guest or an accessible treatment setup; no visible provenance caption.",
@@ -1000,6 +1000,19 @@
       "ownRun": "5d059590-185c-8326-bd02-547dd0af2f25",
       "previousRun": "f858606a-8b50-8326-bf93-6f994856c417 completed; Super Pasta slot16 skipped-quality registered",
       "sharedLockClaimed": false
+    },
+    "publicUrl": "https://aurorasalondubai.com/blog/aurora-salon-step-free-access-questions-before-booking/",
+    "publicVerifiedAt": "2026-11-17T23:09:06.468360+00:00",
+    "deploymentCommit": "62fd693e333206b9172b199f8011612ac560a901",
+    "publicDeploymentId": "f67916d5-eaa1-47ff-91d6-6d9ef66df87c",
+    "publicVerification": {
+      "checkedAt": "2026-11-17T23:09:06.468360+00:00",
+      "production": "Cloudflare Pages completed/success",
+      "article": "Actual canonical domain, oneH1, BlogPosting actualdate18November03:06:22, loaded1280px owned photo/OG/no caption",
+      "overview": "12articles, new guide present",
+      "sitemap": "sitemap-0.xml exact canonical URL present",
+      "home": "Journal context link present",
+      "whatsapp": "Existing questions dialog opened and closed, original971503181009 retained. No messages, requests or bookings sent."
     }
   }
 ]
