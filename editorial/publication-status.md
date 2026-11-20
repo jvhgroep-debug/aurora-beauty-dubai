@@ -1,3 +1,11 @@
+##21November — original slot13 public-verified
+
+VIP Facial or VIP Special: which Aurora appointment do you mean?
+https://aurorasalondubai.com/blog/vip-facial-or-vip-special-aurora-service-names/
+
+{"checkedAt": "2026-11-21T03:09:37.882347+04:00", "production": "Cloudflare Pages completed/success", "article": "Actual canonical domain1H1/title/meta/canonical/BlogPosting actual21November date, loaded1500px approved photo and OG/no caption", "overview": "13 articles, new guide present", "home": "Direct new Journal context link present", "sitemap": "sitemap-0.xml exact canonical URL present", "whatsapp": "Existing questions window opened/closed, original971503181009 and treatment choices retained. Existing https://www.aurorasalon.info/booking retained. No bookings, requests or messages."}
+Productiecommit 5bc6f0b56cee961f5786e3d718d57d60790fdf7a; deployment 67a19d9f-9341-42b2-84e6-64f3bc5ddfa6; PR6. Source-only verification checkpoint; no second deployment. Twelve existing blogrecords unchanged, generated location/service data excluded from commit. Captain21November slot15 skipped-quality checkpoint4d401476a488ff44b8eba5dbb5dd04a2ee71ee9a; no filler/catchup.
+
 ##21November — original slot13 source-written
 
 VIP Facial or VIP Special: which Aurora appointment do you mean?
