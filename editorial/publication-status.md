@@ -1,3 +1,12 @@
+##21November — original slot13 source-written
+
+VIP Facial or VIP Special: which Aurora appointment do you mean?
+https://aurorasalondubai.com/blog/vip-facial-or-vip-special-aurora-service-names/
+
+All12 complete blog records, service/location/booking sources and current public landing reviewed. Existing facial guide covers consultation; VIP Special guide covers planning a combined visit; first-visit guide says similar names are not interchangeable. New narrow intent resolves the exact two VIP labels and the mistaken assumption that the Special includes a facial, then routes to those guides without duplicating their full preparation. No price, treatment outcome, availability or new combination promised. Existing-work removal and fixed-end-time alternatives rejected as already answered.
+
+Origineel21November03:00; actual 2026-11-21T03:06:07.586290+04:00. Current entire source tree compared exactly to GitHub before writing. Prior deployment succeeded; no Actions/openPR. Captain original15 quality-skip durable first. Existing salon photo visually checked, original booking URL/WhatsApp971503181009 and existing publications retained. Build195pages, internal links/assets zero missing, new SEO/schema/photo/current booking route checks passed; all194existing title/H1/canonicals retained. Publishedfalse until production and real-domain verification. No messages or bookings.
+
 # Aurora — blogpublicatie 16 oktober 2026
 
 - Productiebron: `jvhgroep-debug/aurora-beauty-dubai` main; bestaande Cloudflare Pages. Geen Sites-kopie of domeinwijziging.

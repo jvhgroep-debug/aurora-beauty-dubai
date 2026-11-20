@@ -1014,5 +1014,88 @@
       "home": "Journal context link present",
       "whatsapp": "Existing questions dialog opened and closed, original971503181009 retained. No messages, requests or bookings sent."
     }
+  },
+  {
+    "website": "https://aurorasalondubai.com",
+    "slotId": "aurorasalondubai.com|2026-11-21|1",
+    "slot": 13,
+    "originalScheduledAt": "2026-11-21T03:00:00+04:00",
+    "publishAt": "2026-11-21T03:00:00+04:00",
+    "slug": "vip-facial-or-vip-special-aurora-service-names",
+    "title": "VIP Facial or VIP Special? Aurora Service Names Explained",
+    "heading": "VIP Facial or VIP Special: which Aurora appointment do you mean?",
+    "description": "VIP Facial and VIP Special are different Aurora listings. Match the full service name to a facial enquiry or manicure, pedicure and lashes before booking.",
+    "language": "en",
+    "searchIntent": "Does Aurora’s VIP Special include the VIP Facial, or do the two VIP names refer to different appointments?",
+    "published": false,
+    "publicationReady": true,
+    "publicationStatus": "source-written",
+    "datePublished": "2026-11-21T03:06:07.586290+04:00",
+    "dateModified": "2026-11-21T03:06:07.586290+04:00",
+    "image": "/images/services/vip-facial.jpg",
+    "imageAlt": "Facial mask application in Aurora’s existing VIP Facial service photograph",
+    "imageWidth": 1500,
+    "imageHeight": 1000,
+    "imageApproved": true,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776077225106_et8lozkeb.jpg",
+    "imageNote": "Existing permitted salon gallery, Johan30October; visually checked21November. Illustrates the facial listing, not a treatment result or the contents of a combined booking. No visible provenance caption.",
+    "intro": "VIP Facial and VIP Special are two different names in Aurora’s service list. VIP Facial is the facial-treatment listing. VIP Special describes manicure, pedicure and lashes. Do not use “VIP” alone when asking for an appointment, or assume the Special includes a facial. Start with the full name and the services you actually want to discuss.",
+    "sections": [
+      {
+        "heading": "Use the complete name to identify the request",
+        "paragraphs": [
+          "If your enquiry is about a facial, write “VIP Facial”. Aurora’s current description lists facial cleansing, exfoliation, extraction, a mask and facial massage. That description identifies the service; the team should answer questions about the particular appointment and any preparation before you book.",
+          "If your enquiry is about hands, feet and lashes in one visit, write “VIP Special”. Those are the three services named in that listing. It should not be read as a general label for every treatment on the menu. Check any additional request separately rather than treating the word VIP as an inclusion."
+        ],
+        "href": "/beautysalon-azizi-riviera/#treatment-vip-special",
+        "label": "Compare the named treatments in Aurora’s service list"
+      },
+      {
+        "heading": "If you want both, ask about two requirements",
+        "paragraphs": [
+          "A request for a facial as well as nails and lashes needs to say that explicitly. Ask Aurora which booking or combination to select, what the current total covers and how much time to allow. Do not choose one of the two VIP names and expect the other service to be added automatically.",
+          "For example: “I am interested in the VIP Facial and would also like to discuss the manicure, pedicure and lashes listed in VIP Special. Which appointment or appointments should I choose?” This is an enquiry outline, not a promise that both listings can be arranged together or at your preferred time."
+        ],
+        "href": "/blog/manicure-pedicure-lashes-one-visit-meydan/",
+        "label": "Prepare the details for a combined nails-and-lashes enquiry"
+      },
+      {
+        "heading": "Check a saved screenshot against the full current listing",
+        "paragraphs": [
+          "A cropped image, a note saying only “VIP”, or a remembered price does not identify which of these appointments you mean. Open the current service overview and read the full title with its description. Then review the selected service and current total on the existing booking page before confirming.",
+          "If an appointment is already booked and the name does not match what you intended, keep the original confirmation and ask the salon to clarify it. Do not create a second booking simply to correct an unclear service name. Use the existing appointment-change guide for that situation."
+        ],
+        "href": "/blog/change-salon-appointment-meydan-confirmation-checklist/",
+        "label": "Keep a clarification tied to your original appointment"
+      },
+      {
+        "heading": "Take the right questions into the right conversation",
+        "paragraphs": [
+          "Once the name is clear, use the facial consultation guide for questions about the facial itself, or the combined-visit guide for hands, feet and lashes. Preparation and service questions belong to the appointment being discussed; instructions from one listing should not be applied to another.",
+          "Use Aurora’s existing booking page or WhatsApp questions button and include the full service name. Keep the confirmed service, date and time with the address: Azizi Riviera 40, Shop 10, Meydan, Dubai. You can identify the listing and prepare your priorities; Aurora confirms the agreed appointment and what it includes."
+        ],
+        "href": "/blog/vip-facial-meydan-consultation-questions/",
+        "label": "Prepare questions for the VIP Facial"
+      }
+    ],
+    "sources": [
+      "src/data/services.json",
+      "src/data/service-pages.json",
+      "src/data/site.json",
+      "src/data/blog-posts.json",
+      "src/pages/blog/[slug].astro",
+      "https://aurorasalondubai.com/beautysalon-azizi-riviera/",
+      "https://aurorasalondubai.com/blog/"
+    ],
+    "overlapReview": "All12 complete blog records, service/location/booking sources and current public landing reviewed. Existing facial guide covers consultation; VIP Special guide covers planning a combined visit; first-visit guide says similar names are not interchangeable. New narrow intent resolves the exact two VIP labels and the mistaken assumption that the Special includes a facial, then routes to those guides without duplicating their full preparation. No price, treatment outcome, availability or new combination promised. Existing-work removal and fixed-end-time alternatives rejected as already answered.",
+    "priorPublicationCheck": {
+      "main": "86d78cb4595dccaa9aa7a559b73b438337be2684",
+      "previousDeployment": "f67916d5-eaa1-47ff-91d6-6d9ef66df87c completed/success fresh check",
+      "actions": 0,
+      "openPRs": 0,
+      "ownRun": "a7b0440c-b9e4-8328-854e-b6fa5075e195",
+      "previousRun": "f7317aca-74c0-8328-a640-6872c03e63fe completed; Captain21November original15 quality-skip fully checkpointed4d401476a488ff44b8eba5dbb5dd04a2ee71ee9a first",
+      "sharedLockClaimed": false
+    }
   }
 ]
