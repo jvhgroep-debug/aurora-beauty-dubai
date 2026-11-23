@@ -1113,5 +1113,56 @@
       "sitemap": "sitemap-0.xml exact canonical URL present",
       "whatsapp": "Existing questions window opened/closed, original971503181009 and treatment choices retained. Existing https://www.aurorasalon.info/booking retained. No bookings, requests or messages."
     }
+  },
+  {
+    "website": "https://aurorasalondubai.com",
+    "slotId": "aurorasalondubai.com|2026-11-24|1",
+    "slot": 14,
+    "originalScheduledAt": "2026-11-24T03:00:00+04:00",
+    "publishAt": "2026-11-24T03:00:00+04:00",
+    "slug": "2026-11-24-quality-review",
+    "title": "24 November editorial quality review",
+    "heading": "",
+    "description": "",
+    "language": "en",
+    "searchIntent": "Find a distinct practical appointment question after comparison with all existing salon guides.",
+    "published": false,
+    "publicationReady": false,
+    "publicationStatus": "skipped-quality",
+    "datePublished": "",
+    "dateModified": "",
+    "image": "/images/services/vip-facial.jpg",
+    "imageAlt": "Facial mask application in Aurora’s existing VIP Facial service photograph",
+    "imageWidth": 1500,
+    "imageHeight": 1000,
+    "imageApproved": false,
+    "imageSource": "https://xnrhxbknxvrnhcmaqnlk.supabase.co/storage/v1/object/public/public-images/gallery/gallery_1776077225106_et8lozkeb.jpg",
+    "imageNote": "Existing permitted salon gallery, Johan30October; visually checked21November. Illustrates the facial listing, not a treatment result or the contents of a combined booking. No visible provenance caption.",
+    "intro": "",
+    "sections": [],
+    "sources": [
+      "src/data/services.json",
+      "src/data/service-pages.json",
+      "src/data/site.json",
+      "src/data/blog-posts.json",
+      "src/pages/blog/[slug].astro",
+      "https://aurorasalondubai.com/beautysalon-azizi-riviera/",
+      "https://aurorasalondubai.com/blog/"
+    ],
+    "overlapReview": "All12 complete blog records, service/location/booking sources and current public landing reviewed. Existing facial guide covers consultation; VIP Special guide covers planning a combined visit; first-visit guide says similar names are not interchangeable. New narrow intent resolves the exact two VIP labels and the mistaken assumption that the Special includes a facial, then routes to those guides without duplicating their full preparation. No price, treatment outcome, availability or new combination promised. Existing-work removal and fixed-end-time alternatives rejected as already answered.",
+    "priorPublicationCheck": {
+      "main": "838dc3c0f5eedb42ff53509da1a5b545fff78288",
+      "deployment": "67a19d9f-9341-42b2-84e6-64f3bc5ddfa6 completed/success fresh check",
+      "actions": 0,
+      "openPRs": 0,
+      "previousRun": "cbd74a6d-2130-8324-b149-e7a11a08f924 completed",
+      "ownRun": "b27bc77a-ca74-8324-991b-3fc07139616b",
+      "captain": "24November original16 quality-skip fully checkpointed9cc6132be633edfc48ea28e8ddda982ff367b4ef first",
+      "sharedLockClaimed": false
+    },
+    "publicationEnabled": false,
+    "noAutomaticCatchup": true,
+    "qualitySkipReason": "All thirteen existing articles, current salon treatment/location/booking sources and live journal compared. Existing-work/removal enquiry repeats lash infill and combined nails guide; service-label choice repeats lash-style and VIP-names guides; event/departure timing repeats first-visit/combined guide; reference-photo brief, friend booking, organiser/guest, changed appointment, Dubai time and access are already covered. No newly confirmed treatment, preparation/aftercare protocol or booking policy supports a distinct substantive answer. Medical/ingredient or technical treatment advice cannot be inferred from a service name or photo. No neighbourhood variant, filler or later catch-up.",
+    "qualityReviewedAt": "2026-11-24T03:07:27.034743+04:00"
   }
 ]
